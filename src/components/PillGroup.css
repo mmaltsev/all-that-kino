@@ -1,0 +1,32 @@
+.pill-group {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 2px 2px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 999px;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.pill svg {
+  width: 14px;
+  height: 14px;
+}
+
+.pill--active {
+  background: var(--accent);
+  color: #180008;
+  border-color: var(--accent);
+}

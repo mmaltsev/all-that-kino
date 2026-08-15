@@ -1,0 +1,134 @@
+[
+  {
+    "id": "delphi-filmpalast",
+    "name": "Delphi Filmpalast",
+    "chain": "Independent",
+    "neighborhood": "Charlottenburg",
+    "address": "Kantstraße 12, 10623 Berlin",
+    "lat": 52.5049,
+    "lng": 13.3175,
+    "mapX": 12,
+    "mapY": 50
+  },
+  {
+    "id": "zoo-palast",
+    "name": "Zoo Palast",
+    "chain": "CinemaxX",
+    "neighborhood": "Charlottenburg",
+    "address": "Hardenbergstraße 29a, 10623 Berlin",
+    "lat": 52.5057,
+    "lng": 13.3315,
+    "mapX": 23,
+    "mapY": 49
+  },
+  {
+    "id": "babylon-mitte",
+    "name": "Babylon Mitte",
+    "chain": "Independent",
+    "neighborhood": "Mitte",
+    "address": "Rosa-Luxemburg-Straße 30, 10178 Berlin",
+    "lat": 52.5233,
+    "lng": 13.4115,
+    "mapX": 80,
+    "mapY": 20
+  },
+  {
+    "id": "babylon-kreuzberg",
+    "name": "Babylon Kreuzberg",
+    "chain": "Independent",
+    "neighborhood": "Kreuzberg",
+    "address": "Dresdener Straße 126, 10999 Berlin",
+    "lat": 52.5013,
+    "lng": 13.4180,
+    "mapX": 84,
+    "mapY": 56
+  },
+  {
+    "id": "sputnik-kino",
+    "name": "Sputnik Kino",
+    "chain": "Independent",
+    "neighborhood": "Neukölln",
+    "address": "Hasenheide 54, 12161 Berlin",
+    "lat": 52.4881,
+    "lng": 13.4225,
+    "mapX": 88,
+    "mapY": 78
+  },
+  {
+    "id": "il-kino",
+    "name": "Il Kino",
+    "chain": "Independent",
+    "neighborhood": "Neukölln",
+    "address": "Weisestraße 8, 12049 Berlin",
+    "lat": 52.4794,
+    "lng": 13.4318,
+    "mapX": 94,
+    "mapY": 93
+  },
+  {
+    "id": "central-kino",
+    "name": "Central Kino",
+    "chain": "Independent",
+    "neighborhood": "Mitte",
+    "address": "Rosenthaler Straße 39, 10178 Berlin",
+    "lat": 52.5265,
+    "lng": 13.4020,
+    "mapX": 73,
+    "mapY": 14
+  },
+  {
+    "id": "yorck-kino",
+    "name": "Yorck Kino",
+    "chain": "Yorck Kinogruppe",
+    "neighborhood": "Kreuzberg",
+    "address": "Yorckstraße 86, 10965 Berlin",
+    "lat": 52.4934,
+    "lng": 13.3799,
+    "mapX": 57,
+    "mapY": 69
+  },
+  {
+    "id": "odeon",
+    "name": "Odeon",
+    "chain": "Yorck Kinogruppe",
+    "neighborhood": "Schöneberg",
+    "address": "Hauptstraße 116, 10827 Berlin",
+    "lat": 52.4838,
+    "lng": 13.3488,
+    "mapX": 35,
+    "mapY": 85
+  },
+  {
+    "id": "filmtheater-friedrichshain",
+    "name": "Filmtheater am Friedrichshain",
+    "chain": "Independent",
+    "neighborhood": "Prenzlauer Berg",
+    "address": "Bötzowstraße 1-5, 10407 Berlin",
+    "lat": 52.5322,
+    "lng": 13.4358,
+    "mapX": 97,
+    "mapY": 5
+  },
+  {
+    "id": "kino-international",
+    "name": "Kino International",
+    "chain": "Yorck Kinogruppe",
+    "neighborhood": "Mitte",
+    "address": "Karl-Marx-Allee 33, 10178 Berlin",
+    "lat": 52.5197,
+    "lng": 13.4247,
+    "mapX": 89,
+    "mapY": 26
+  },
+  {
+    "id": "moviemento",
+    "name": "Moviemento",
+    "chain": "Independent",
+    "neighborhood": "Kreuzberg",
+    "address": "Kottbusser Damm 22, 10967 Berlin",
+    "lat": 52.4934,
+    "lng": 13.4213,
+    "mapX": 87,
+    "mapY": 69
+  }
+]

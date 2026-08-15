@@ -1,0 +1,3334 @@
+[
+  {
+    "id": "st-1",
+    "movieId": "marty-supreme",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 0,
+    "time": "22:00"
+  },
+  {
+    "id": "st-2",
+    "movieId": "marty-supreme",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 0,
+    "time": "22:30"
+  },
+  {
+    "id": "st-3",
+    "movieId": "marty-supreme",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 1,
+    "time": "18:30"
+  },
+  {
+    "id": "st-4",
+    "movieId": "marty-supreme",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 1,
+    "time": "21:00"
+  },
+  {
+    "id": "st-5",
+    "movieId": "marty-supreme",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 2,
+    "time": "13:00"
+  },
+  {
+    "id": "st-6",
+    "movieId": "marty-supreme",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 2,
+    "time": "14:00"
+  },
+  {
+    "id": "st-7",
+    "movieId": "marty-supreme",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 2,
+    "time": "18:00"
+  },
+  {
+    "id": "st-8",
+    "movieId": "marty-supreme",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 3,
+    "time": "15:30"
+  },
+  {
+    "id": "st-9",
+    "movieId": "marty-supreme",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 4,
+    "time": "16:00"
+  },
+  {
+    "id": "st-10",
+    "movieId": "marty-supreme",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "13:00"
+  },
+  {
+    "id": "st-11",
+    "movieId": "marty-supreme",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "20:30"
+  },
+  {
+    "id": "st-12",
+    "movieId": "marty-supreme",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "21:00"
+  },
+  {
+    "id": "st-13",
+    "movieId": "marty-supreme",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 6,
+    "time": "13:00"
+  },
+  {
+    "id": "st-14",
+    "movieId": "marty-supreme",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 6,
+    "time": "14:00"
+  },
+  {
+    "id": "st-15",
+    "movieId": "marty-supreme",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 0,
+    "time": "13:00"
+  },
+  {
+    "id": "st-16",
+    "movieId": "marty-supreme",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 0,
+    "time": "15:30"
+  },
+  {
+    "id": "st-17",
+    "movieId": "marty-supreme",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 0,
+    "time": "18:30"
+  },
+  {
+    "id": "st-18",
+    "movieId": "marty-supreme",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 1,
+    "time": "19:00"
+  },
+  {
+    "id": "st-19",
+    "movieId": "marty-supreme",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 2,
+    "time": "13:00"
+  },
+  {
+    "id": "st-20",
+    "movieId": "marty-supreme",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 2,
+    "time": "18:00"
+  },
+  {
+    "id": "st-21",
+    "movieId": "marty-supreme",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 3,
+    "time": "16:00"
+  },
+  {
+    "id": "st-22",
+    "movieId": "marty-supreme",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 3,
+    "time": "17:30"
+  },
+  {
+    "id": "st-23",
+    "movieId": "marty-supreme",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 3,
+    "time": "21:00"
+  },
+  {
+    "id": "st-24",
+    "movieId": "marty-supreme",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 4,
+    "time": "16:00"
+  },
+  {
+    "id": "st-25",
+    "movieId": "marty-supreme",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 4,
+    "time": "21:30"
+  },
+  {
+    "id": "st-26",
+    "movieId": "marty-supreme",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 6,
+    "time": "13:00"
+  },
+  {
+    "id": "st-27",
+    "movieId": "marty-supreme",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 6,
+    "time": "18:00"
+  },
+  {
+    "id": "st-28",
+    "movieId": "marty-supreme",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 6,
+    "time": "18:30"
+  },
+  {
+    "id": "st-29",
+    "movieId": "marty-supreme",
+    "cinemaId": "moviemento",
+    "dayOffset": 0,
+    "time": "13:00"
+  },
+  {
+    "id": "st-30",
+    "movieId": "marty-supreme",
+    "cinemaId": "moviemento",
+    "dayOffset": 0,
+    "time": "19:00"
+  },
+  {
+    "id": "st-31",
+    "movieId": "marty-supreme",
+    "cinemaId": "moviemento",
+    "dayOffset": 0,
+    "time": "21:00"
+  },
+  {
+    "id": "st-32",
+    "movieId": "marty-supreme",
+    "cinemaId": "moviemento",
+    "dayOffset": 1,
+    "time": "13:00"
+  },
+  {
+    "id": "st-33",
+    "movieId": "marty-supreme",
+    "cinemaId": "moviemento",
+    "dayOffset": 1,
+    "time": "16:00"
+  },
+  {
+    "id": "st-34",
+    "movieId": "marty-supreme",
+    "cinemaId": "moviemento",
+    "dayOffset": 1,
+    "time": "19:00"
+  },
+  {
+    "id": "st-35",
+    "movieId": "marty-supreme",
+    "cinemaId": "moviemento",
+    "dayOffset": 2,
+    "time": "18:30"
+  },
+  {
+    "id": "st-36",
+    "movieId": "marty-supreme",
+    "cinemaId": "moviemento",
+    "dayOffset": 5,
+    "time": "13:00"
+  },
+  {
+    "id": "st-37",
+    "movieId": "marty-supreme",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 1,
+    "time": "18:00"
+  },
+  {
+    "id": "st-38",
+    "movieId": "marty-supreme",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 1,
+    "time": "21:30"
+  },
+  {
+    "id": "st-39",
+    "movieId": "marty-supreme",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 2,
+    "time": "13:00"
+  },
+  {
+    "id": "st-40",
+    "movieId": "marty-supreme",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 2,
+    "time": "20:00"
+  },
+  {
+    "id": "st-41",
+    "movieId": "marty-supreme",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 2,
+    "time": "22:00"
+  },
+  {
+    "id": "st-42",
+    "movieId": "marty-supreme",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 3,
+    "time": "16:00"
+  },
+  {
+    "id": "st-43",
+    "movieId": "marty-supreme",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 5,
+    "time": "16:00"
+  },
+  {
+    "id": "st-44",
+    "movieId": "marty-supreme",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 5,
+    "time": "19:00"
+  },
+  {
+    "id": "st-45",
+    "movieId": "marty-supreme",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 5,
+    "time": "21:30"
+  },
+  {
+    "id": "st-46",
+    "movieId": "the-secret-agent",
+    "cinemaId": "moviemento",
+    "dayOffset": 0,
+    "time": "18:30"
+  },
+  {
+    "id": "st-47",
+    "movieId": "the-secret-agent",
+    "cinemaId": "moviemento",
+    "dayOffset": 1,
+    "time": "17:30"
+  },
+  {
+    "id": "st-48",
+    "movieId": "the-secret-agent",
+    "cinemaId": "moviemento",
+    "dayOffset": 1,
+    "time": "21:30"
+  },
+  {
+    "id": "st-49",
+    "movieId": "the-secret-agent",
+    "cinemaId": "moviemento",
+    "dayOffset": 2,
+    "time": "18:00"
+  },
+  {
+    "id": "st-50",
+    "movieId": "the-secret-agent",
+    "cinemaId": "moviemento",
+    "dayOffset": 2,
+    "time": "18:30"
+  },
+  {
+    "id": "st-51",
+    "movieId": "the-secret-agent",
+    "cinemaId": "moviemento",
+    "dayOffset": 4,
+    "time": "14:00"
+  },
+  {
+    "id": "st-52",
+    "movieId": "the-secret-agent",
+    "cinemaId": "moviemento",
+    "dayOffset": 4,
+    "time": "22:30"
+  },
+  {
+    "id": "st-53",
+    "movieId": "the-secret-agent",
+    "cinemaId": "moviemento",
+    "dayOffset": 5,
+    "time": "15:30"
+  },
+  {
+    "id": "st-54",
+    "movieId": "the-secret-agent",
+    "cinemaId": "moviemento",
+    "dayOffset": 5,
+    "time": "22:00"
+  },
+  {
+    "id": "st-55",
+    "movieId": "the-secret-agent",
+    "cinemaId": "moviemento",
+    "dayOffset": 6,
+    "time": "21:30"
+  },
+  {
+    "id": "st-56",
+    "movieId": "the-secret-agent",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 0,
+    "time": "15:30"
+  },
+  {
+    "id": "st-57",
+    "movieId": "the-secret-agent",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 1,
+    "time": "20:00"
+  },
+  {
+    "id": "st-58",
+    "movieId": "the-secret-agent",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 1,
+    "time": "20:30"
+  },
+  {
+    "id": "st-59",
+    "movieId": "the-secret-agent",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 1,
+    "time": "21:00"
+  },
+  {
+    "id": "st-60",
+    "movieId": "the-secret-agent",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 2,
+    "time": "18:30"
+  },
+  {
+    "id": "st-61",
+    "movieId": "the-secret-agent",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 2,
+    "time": "19:00"
+  },
+  {
+    "id": "st-62",
+    "movieId": "the-secret-agent",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 2,
+    "time": "22:30"
+  },
+  {
+    "id": "st-63",
+    "movieId": "the-secret-agent",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 4,
+    "time": "15:30"
+  },
+  {
+    "id": "st-64",
+    "movieId": "the-secret-agent",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 4,
+    "time": "18:00"
+  },
+  {
+    "id": "st-65",
+    "movieId": "the-secret-agent",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 4,
+    "time": "21:00"
+  },
+  {
+    "id": "st-66",
+    "movieId": "the-secret-agent",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 5,
+    "time": "21:00"
+  },
+  {
+    "id": "st-67",
+    "movieId": "no-other-choice",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 0,
+    "time": "16:00"
+  },
+  {
+    "id": "st-68",
+    "movieId": "no-other-choice",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 0,
+    "time": "17:30"
+  },
+  {
+    "id": "st-69",
+    "movieId": "no-other-choice",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 0,
+    "time": "20:30"
+  },
+  {
+    "id": "st-70",
+    "movieId": "no-other-choice",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 1,
+    "time": "13:00"
+  },
+  {
+    "id": "st-71",
+    "movieId": "no-other-choice",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 1,
+    "time": "18:00"
+  },
+  {
+    "id": "st-72",
+    "movieId": "no-other-choice",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 1,
+    "time": "22:00"
+  },
+  {
+    "id": "st-73",
+    "movieId": "no-other-choice",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 2,
+    "time": "14:00"
+  },
+  {
+    "id": "st-74",
+    "movieId": "no-other-choice",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 2,
+    "time": "15:30"
+  },
+  {
+    "id": "st-75",
+    "movieId": "no-other-choice",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 3,
+    "time": "20:00"
+  },
+  {
+    "id": "st-76",
+    "movieId": "no-other-choice",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 5,
+    "time": "13:00"
+  },
+  {
+    "id": "st-77",
+    "movieId": "no-other-choice",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 5,
+    "time": "21:30"
+  },
+  {
+    "id": "st-78",
+    "movieId": "no-other-choice",
+    "cinemaId": "kino-international",
+    "dayOffset": 0,
+    "time": "21:30"
+  },
+  {
+    "id": "st-79",
+    "movieId": "no-other-choice",
+    "cinemaId": "kino-international",
+    "dayOffset": 1,
+    "time": "15:30"
+  },
+  {
+    "id": "st-80",
+    "movieId": "no-other-choice",
+    "cinemaId": "kino-international",
+    "dayOffset": 1,
+    "time": "16:00"
+  },
+  {
+    "id": "st-81",
+    "movieId": "no-other-choice",
+    "cinemaId": "kino-international",
+    "dayOffset": 1,
+    "time": "20:30"
+  },
+  {
+    "id": "st-82",
+    "movieId": "no-other-choice",
+    "cinemaId": "kino-international",
+    "dayOffset": 2,
+    "time": "13:00"
+  },
+  {
+    "id": "st-83",
+    "movieId": "no-other-choice",
+    "cinemaId": "kino-international",
+    "dayOffset": 4,
+    "time": "17:30"
+  },
+  {
+    "id": "st-84",
+    "movieId": "no-other-choice",
+    "cinemaId": "kino-international",
+    "dayOffset": 4,
+    "time": "21:30"
+  },
+  {
+    "id": "st-85",
+    "movieId": "no-other-choice",
+    "cinemaId": "kino-international",
+    "dayOffset": 5,
+    "time": "13:00"
+  },
+  {
+    "id": "st-86",
+    "movieId": "no-other-choice",
+    "cinemaId": "kino-international",
+    "dayOffset": 5,
+    "time": "22:30"
+  },
+  {
+    "id": "st-87",
+    "movieId": "no-other-choice",
+    "cinemaId": "kino-international",
+    "dayOffset": 6,
+    "time": "14:00"
+  },
+  {
+    "id": "st-88",
+    "movieId": "no-other-choice",
+    "cinemaId": "kino-international",
+    "dayOffset": 6,
+    "time": "21:30"
+  },
+  {
+    "id": "st-89",
+    "movieId": "taxi-driver",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 0,
+    "time": "22:30"
+  },
+  {
+    "id": "st-90",
+    "movieId": "taxi-driver",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 1,
+    "time": "20:30"
+  },
+  {
+    "id": "st-91",
+    "movieId": "taxi-driver",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 5,
+    "time": "15:30"
+  },
+  {
+    "id": "st-92",
+    "movieId": "taxi-driver",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 5,
+    "time": "21:30"
+  },
+  {
+    "id": "st-93",
+    "movieId": "taxi-driver",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 6,
+    "time": "14:00"
+  },
+  {
+    "id": "st-94",
+    "movieId": "taxi-driver",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 6,
+    "time": "21:00"
+  },
+  {
+    "id": "st-95",
+    "movieId": "taxi-driver",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 1,
+    "time": "16:00"
+  },
+  {
+    "id": "st-96",
+    "movieId": "taxi-driver",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 1,
+    "time": "21:00"
+  },
+  {
+    "id": "st-97",
+    "movieId": "taxi-driver",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 3,
+    "time": "15:30"
+  },
+  {
+    "id": "st-98",
+    "movieId": "taxi-driver",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 3,
+    "time": "16:00"
+  },
+  {
+    "id": "st-99",
+    "movieId": "taxi-driver",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 4,
+    "time": "18:30"
+  },
+  {
+    "id": "st-100",
+    "movieId": "taxi-driver",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 6,
+    "time": "13:00"
+  },
+  {
+    "id": "st-101",
+    "movieId": "taxi-driver",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 6,
+    "time": "16:00"
+  },
+  {
+    "id": "st-102",
+    "movieId": "taxi-driver",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 6,
+    "time": "22:30"
+  },
+  {
+    "id": "st-103",
+    "movieId": "taxi-driver",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 1,
+    "time": "22:30"
+  },
+  {
+    "id": "st-104",
+    "movieId": "taxi-driver",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 2,
+    "time": "13:00"
+  },
+  {
+    "id": "st-105",
+    "movieId": "taxi-driver",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 3,
+    "time": "18:00"
+  },
+  {
+    "id": "st-106",
+    "movieId": "taxi-driver",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 3,
+    "time": "18:30"
+  },
+  {
+    "id": "st-107",
+    "movieId": "taxi-driver",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 4,
+    "time": "16:00"
+  },
+  {
+    "id": "st-108",
+    "movieId": "taxi-driver",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 4,
+    "time": "18:30"
+  },
+  {
+    "id": "st-109",
+    "movieId": "taxi-driver",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 4,
+    "time": "21:30"
+  },
+  {
+    "id": "st-110",
+    "movieId": "taxi-driver",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 6,
+    "time": "16:00"
+  },
+  {
+    "id": "st-111",
+    "movieId": "taxi-driver",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 6,
+    "time": "18:30"
+  },
+  {
+    "id": "st-112",
+    "movieId": "taxi-driver",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 1,
+    "time": "13:00"
+  },
+  {
+    "id": "st-113",
+    "movieId": "taxi-driver",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 1,
+    "time": "19:00"
+  },
+  {
+    "id": "st-114",
+    "movieId": "taxi-driver",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 2,
+    "time": "16:00"
+  },
+  {
+    "id": "st-115",
+    "movieId": "taxi-driver",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 2,
+    "time": "18:00"
+  },
+  {
+    "id": "st-116",
+    "movieId": "taxi-driver",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 2,
+    "time": "20:30"
+  },
+  {
+    "id": "st-117",
+    "movieId": "taxi-driver",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 3,
+    "time": "15:30"
+  },
+  {
+    "id": "st-118",
+    "movieId": "taxi-driver",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 4,
+    "time": "13:00"
+  },
+  {
+    "id": "st-119",
+    "movieId": "taxi-driver",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 4,
+    "time": "15:30"
+  },
+  {
+    "id": "st-120",
+    "movieId": "taxi-driver",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 4,
+    "time": "19:00"
+  },
+  {
+    "id": "st-121",
+    "movieId": "taxi-driver",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "13:00"
+  },
+  {
+    "id": "st-122",
+    "movieId": "taxi-driver",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "18:00"
+  },
+  {
+    "id": "st-123",
+    "movieId": "taxi-driver",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "20:30"
+  },
+  {
+    "id": "st-124",
+    "movieId": "taxi-driver",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 6,
+    "time": "15:30"
+  },
+  {
+    "id": "st-125",
+    "movieId": "taxi-driver",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 6,
+    "time": "16:00"
+  },
+  {
+    "id": "st-126",
+    "movieId": "taxi-driver",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 6,
+    "time": "19:00"
+  },
+  {
+    "id": "st-127",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "central-kino",
+    "dayOffset": 1,
+    "time": "13:00"
+  },
+  {
+    "id": "st-128",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "central-kino",
+    "dayOffset": 1,
+    "time": "18:00"
+  },
+  {
+    "id": "st-129",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "central-kino",
+    "dayOffset": 2,
+    "time": "16:00"
+  },
+  {
+    "id": "st-130",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "central-kino",
+    "dayOffset": 2,
+    "time": "20:30"
+  },
+  {
+    "id": "st-131",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "central-kino",
+    "dayOffset": 2,
+    "time": "22:00"
+  },
+  {
+    "id": "st-132",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "central-kino",
+    "dayOffset": 3,
+    "time": "16:00"
+  },
+  {
+    "id": "st-133",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "central-kino",
+    "dayOffset": 4,
+    "time": "15:30"
+  },
+  {
+    "id": "st-134",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "central-kino",
+    "dayOffset": 4,
+    "time": "21:30"
+  },
+  {
+    "id": "st-135",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "central-kino",
+    "dayOffset": 5,
+    "time": "15:30"
+  },
+  {
+    "id": "st-136",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "central-kino",
+    "dayOffset": 5,
+    "time": "18:30"
+  },
+  {
+    "id": "st-137",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "central-kino",
+    "dayOffset": 5,
+    "time": "21:30"
+  },
+  {
+    "id": "st-138",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "central-kino",
+    "dayOffset": 6,
+    "time": "13:00"
+  },
+  {
+    "id": "st-139",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "central-kino",
+    "dayOffset": 6,
+    "time": "14:00"
+  },
+  {
+    "id": "st-140",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 1,
+    "time": "14:00"
+  },
+  {
+    "id": "st-141",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 1,
+    "time": "19:00"
+  },
+  {
+    "id": "st-142",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 2,
+    "time": "20:30"
+  },
+  {
+    "id": "st-143",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 3,
+    "time": "13:00"
+  },
+  {
+    "id": "st-144",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 3,
+    "time": "22:00"
+  },
+  {
+    "id": "st-145",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 4,
+    "time": "18:30"
+  },
+  {
+    "id": "st-146",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 4,
+    "time": "20:00"
+  },
+  {
+    "id": "st-147",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "20:30"
+  },
+  {
+    "id": "st-148",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 6,
+    "time": "13:00"
+  },
+  {
+    "id": "st-149",
+    "movieId": "lilo-and-stitch",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 6,
+    "time": "14:00"
+  },
+  {
+    "id": "st-150",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 0,
+    "time": "13:00"
+  },
+  {
+    "id": "st-151",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 1,
+    "time": "15:30"
+  },
+  {
+    "id": "st-152",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 1,
+    "time": "20:00"
+  },
+  {
+    "id": "st-153",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 1,
+    "time": "21:30"
+  },
+  {
+    "id": "st-154",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 2,
+    "time": "18:30"
+  },
+  {
+    "id": "st-155",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 2,
+    "time": "19:00"
+  },
+  {
+    "id": "st-156",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 5,
+    "time": "16:00"
+  },
+  {
+    "id": "st-157",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 5,
+    "time": "17:30"
+  },
+  {
+    "id": "st-158",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 5,
+    "time": "22:00"
+  },
+  {
+    "id": "st-159",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 6,
+    "time": "14:00"
+  },
+  {
+    "id": "st-160",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "delphi-filmpalast",
+    "dayOffset": 6,
+    "time": "18:30"
+  },
+  {
+    "id": "st-161",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 0,
+    "time": "13:00"
+  },
+  {
+    "id": "st-162",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 0,
+    "time": "15:30"
+  },
+  {
+    "id": "st-163",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 1,
+    "time": "18:30"
+  },
+  {
+    "id": "st-164",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 1,
+    "time": "19:00"
+  },
+  {
+    "id": "st-165",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 1,
+    "time": "20:00"
+  },
+  {
+    "id": "st-166",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 2,
+    "time": "13:00"
+  },
+  {
+    "id": "st-167",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 3,
+    "time": "13:00"
+  },
+  {
+    "id": "st-168",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 3,
+    "time": "14:00"
+  },
+  {
+    "id": "st-169",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 3,
+    "time": "21:00"
+  },
+  {
+    "id": "st-170",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 4,
+    "time": "20:00"
+  },
+  {
+    "id": "st-171",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 4,
+    "time": "21:00"
+  },
+  {
+    "id": "st-172",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 4,
+    "time": "21:30"
+  },
+  {
+    "id": "st-173",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 5,
+    "time": "14:00"
+  },
+  {
+    "id": "st-174",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 5,
+    "time": "15:30"
+  },
+  {
+    "id": "st-175",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 5,
+    "time": "18:00"
+  },
+  {
+    "id": "st-176",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 6,
+    "time": "15:30"
+  },
+  {
+    "id": "st-177",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 6,
+    "time": "17:30"
+  },
+  {
+    "id": "st-178",
+    "movieId": "an-elephant-sitting-still",
+    "cinemaId": "odeon",
+    "dayOffset": 6,
+    "time": "18:00"
+  },
+  {
+    "id": "st-179",
+    "movieId": "resurrection",
+    "cinemaId": "central-kino",
+    "dayOffset": 0,
+    "time": "22:00"
+  },
+  {
+    "id": "st-180",
+    "movieId": "resurrection",
+    "cinemaId": "central-kino",
+    "dayOffset": 1,
+    "time": "19:00"
+  },
+  {
+    "id": "st-181",
+    "movieId": "resurrection",
+    "cinemaId": "central-kino",
+    "dayOffset": 2,
+    "time": "13:00"
+  },
+  {
+    "id": "st-182",
+    "movieId": "resurrection",
+    "cinemaId": "central-kino",
+    "dayOffset": 2,
+    "time": "16:00"
+  },
+  {
+    "id": "st-183",
+    "movieId": "resurrection",
+    "cinemaId": "central-kino",
+    "dayOffset": 2,
+    "time": "17:30"
+  },
+  {
+    "id": "st-184",
+    "movieId": "resurrection",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 0,
+    "time": "18:00"
+  },
+  {
+    "id": "st-185",
+    "movieId": "resurrection",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 0,
+    "time": "19:00"
+  },
+  {
+    "id": "st-186",
+    "movieId": "resurrection",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 0,
+    "time": "22:30"
+  },
+  {
+    "id": "st-187",
+    "movieId": "resurrection",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 1,
+    "time": "14:00"
+  },
+  {
+    "id": "st-188",
+    "movieId": "resurrection",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 1,
+    "time": "18:30"
+  },
+  {
+    "id": "st-189",
+    "movieId": "resurrection",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 1,
+    "time": "19:00"
+  },
+  {
+    "id": "st-190",
+    "movieId": "resurrection",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 3,
+    "time": "15:30"
+  },
+  {
+    "id": "st-191",
+    "movieId": "resurrection",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 3,
+    "time": "16:00"
+  },
+  {
+    "id": "st-192",
+    "movieId": "resurrection",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 4,
+    "time": "15:30"
+  },
+  {
+    "id": "st-193",
+    "movieId": "resurrection",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 4,
+    "time": "20:30"
+  },
+  {
+    "id": "st-194",
+    "movieId": "resurrection",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 5,
+    "time": "21:30"
+  },
+  {
+    "id": "st-195",
+    "movieId": "resurrection",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 5,
+    "time": "22:00"
+  },
+  {
+    "id": "st-196",
+    "movieId": "resurrection",
+    "cinemaId": "kino-international",
+    "dayOffset": 0,
+    "time": "18:30"
+  },
+  {
+    "id": "st-197",
+    "movieId": "resurrection",
+    "cinemaId": "kino-international",
+    "dayOffset": 0,
+    "time": "21:00"
+  },
+  {
+    "id": "st-198",
+    "movieId": "resurrection",
+    "cinemaId": "kino-international",
+    "dayOffset": 0,
+    "time": "22:00"
+  },
+  {
+    "id": "st-199",
+    "movieId": "resurrection",
+    "cinemaId": "kino-international",
+    "dayOffset": 2,
+    "time": "14:00"
+  },
+  {
+    "id": "st-200",
+    "movieId": "resurrection",
+    "cinemaId": "kino-international",
+    "dayOffset": 2,
+    "time": "18:30"
+  },
+  {
+    "id": "st-201",
+    "movieId": "resurrection",
+    "cinemaId": "kino-international",
+    "dayOffset": 2,
+    "time": "22:30"
+  },
+  {
+    "id": "st-202",
+    "movieId": "resurrection",
+    "cinemaId": "kino-international",
+    "dayOffset": 4,
+    "time": "19:00"
+  },
+  {
+    "id": "st-203",
+    "movieId": "resurrection",
+    "cinemaId": "kino-international",
+    "dayOffset": 6,
+    "time": "14:00"
+  },
+  {
+    "id": "st-204",
+    "movieId": "resurrection",
+    "cinemaId": "kino-international",
+    "dayOffset": 6,
+    "time": "16:00"
+  },
+  {
+    "id": "st-205",
+    "movieId": "resurrection",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 1,
+    "time": "13:00"
+  },
+  {
+    "id": "st-206",
+    "movieId": "resurrection",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 3,
+    "time": "15:30"
+  },
+  {
+    "id": "st-207",
+    "movieId": "resurrection",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 3,
+    "time": "19:00"
+  },
+  {
+    "id": "st-208",
+    "movieId": "resurrection",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "13:00"
+  },
+  {
+    "id": "st-209",
+    "movieId": "resurrection",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "14:00"
+  },
+  {
+    "id": "st-210",
+    "movieId": "resurrection",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "15:30"
+  },
+  {
+    "id": "st-211",
+    "movieId": "resurrection",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 6,
+    "time": "18:30"
+  },
+  {
+    "id": "st-212",
+    "movieId": "resurrection",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 0,
+    "time": "16:00"
+  },
+  {
+    "id": "st-213",
+    "movieId": "resurrection",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 0,
+    "time": "18:00"
+  },
+  {
+    "id": "st-214",
+    "movieId": "resurrection",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 1,
+    "time": "16:00"
+  },
+  {
+    "id": "st-215",
+    "movieId": "resurrection",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 1,
+    "time": "18:00"
+  },
+  {
+    "id": "st-216",
+    "movieId": "resurrection",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 1,
+    "time": "21:00"
+  },
+  {
+    "id": "st-217",
+    "movieId": "resurrection",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 2,
+    "time": "18:00"
+  },
+  {
+    "id": "st-218",
+    "movieId": "resurrection",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 3,
+    "time": "18:00"
+  },
+  {
+    "id": "st-219",
+    "movieId": "resurrection",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 3,
+    "time": "18:30"
+  },
+  {
+    "id": "st-220",
+    "movieId": "resurrection",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 5,
+    "time": "13:00"
+  },
+  {
+    "id": "st-221",
+    "movieId": "resurrection",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 5,
+    "time": "14:00"
+  },
+  {
+    "id": "st-222",
+    "movieId": "resurrection",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 6,
+    "time": "13:00"
+  },
+  {
+    "id": "st-223",
+    "movieId": "resurrection",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 6,
+    "time": "16:00"
+  },
+  {
+    "id": "st-224",
+    "movieId": "resurrection",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 6,
+    "time": "18:00"
+  },
+  {
+    "id": "st-225",
+    "movieId": "solaris",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 0,
+    "time": "20:30"
+  },
+  {
+    "id": "st-226",
+    "movieId": "solaris",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 0,
+    "time": "21:00"
+  },
+  {
+    "id": "st-227",
+    "movieId": "solaris",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 2,
+    "time": "15:30"
+  },
+  {
+    "id": "st-228",
+    "movieId": "solaris",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 2,
+    "time": "17:30"
+  },
+  {
+    "id": "st-229",
+    "movieId": "solaris",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 2,
+    "time": "22:30"
+  },
+  {
+    "id": "st-230",
+    "movieId": "solaris",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 3,
+    "time": "15:30"
+  },
+  {
+    "id": "st-231",
+    "movieId": "solaris",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 3,
+    "time": "16:00"
+  },
+  {
+    "id": "st-232",
+    "movieId": "solaris",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 3,
+    "time": "20:30"
+  },
+  {
+    "id": "st-233",
+    "movieId": "solaris",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 4,
+    "time": "18:00"
+  },
+  {
+    "id": "st-234",
+    "movieId": "solaris",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 4,
+    "time": "18:30"
+  },
+  {
+    "id": "st-235",
+    "movieId": "solaris",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 4,
+    "time": "20:30"
+  },
+  {
+    "id": "st-236",
+    "movieId": "solaris",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 5,
+    "time": "20:30"
+  },
+  {
+    "id": "st-237",
+    "movieId": "solaris",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 5,
+    "time": "22:00"
+  },
+  {
+    "id": "st-238",
+    "movieId": "solaris",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 6,
+    "time": "13:00"
+  },
+  {
+    "id": "st-239",
+    "movieId": "solaris",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 6,
+    "time": "16:00"
+  },
+  {
+    "id": "st-240",
+    "movieId": "solaris",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 6,
+    "time": "22:00"
+  },
+  {
+    "id": "st-241",
+    "movieId": "solaris",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 0,
+    "time": "18:00"
+  },
+  {
+    "id": "st-242",
+    "movieId": "solaris",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 0,
+    "time": "19:00"
+  },
+  {
+    "id": "st-243",
+    "movieId": "solaris",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 1,
+    "time": "13:00"
+  },
+  {
+    "id": "st-244",
+    "movieId": "solaris",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 3,
+    "time": "13:00"
+  },
+  {
+    "id": "st-245",
+    "movieId": "solaris",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 4,
+    "time": "16:00"
+  },
+  {
+    "id": "st-246",
+    "movieId": "solaris",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 5,
+    "time": "15:30"
+  },
+  {
+    "id": "st-247",
+    "movieId": "solaris",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 6,
+    "time": "15:30"
+  },
+  {
+    "id": "st-248",
+    "movieId": "solaris",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 6,
+    "time": "19:00"
+  },
+  {
+    "id": "st-249",
+    "movieId": "solaris",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 6,
+    "time": "22:00"
+  },
+  {
+    "id": "st-250",
+    "movieId": "solaris",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 0,
+    "time": "20:30"
+  },
+  {
+    "id": "st-251",
+    "movieId": "solaris",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 1,
+    "time": "17:30"
+  },
+  {
+    "id": "st-252",
+    "movieId": "solaris",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 1,
+    "time": "18:30"
+  },
+  {
+    "id": "st-253",
+    "movieId": "solaris",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 2,
+    "time": "18:30"
+  },
+  {
+    "id": "st-254",
+    "movieId": "solaris",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 2,
+    "time": "19:00"
+  },
+  {
+    "id": "st-255",
+    "movieId": "solaris",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 2,
+    "time": "22:00"
+  },
+  {
+    "id": "st-256",
+    "movieId": "solaris",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 3,
+    "time": "18:30"
+  },
+  {
+    "id": "st-257",
+    "movieId": "solaris",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 3,
+    "time": "19:00"
+  },
+  {
+    "id": "st-258",
+    "movieId": "solaris",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 3,
+    "time": "21:00"
+  },
+  {
+    "id": "st-259",
+    "movieId": "solaris",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 4,
+    "time": "15:30"
+  },
+  {
+    "id": "st-260",
+    "movieId": "solaris",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "18:00"
+  },
+  {
+    "id": "st-261",
+    "movieId": "solaris",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 6,
+    "time": "20:30"
+  },
+  {
+    "id": "st-262",
+    "movieId": "solaris",
+    "cinemaId": "odeon",
+    "dayOffset": 0,
+    "time": "13:00"
+  },
+  {
+    "id": "st-263",
+    "movieId": "solaris",
+    "cinemaId": "odeon",
+    "dayOffset": 1,
+    "time": "18:30"
+  },
+  {
+    "id": "st-264",
+    "movieId": "solaris",
+    "cinemaId": "odeon",
+    "dayOffset": 1,
+    "time": "19:00"
+  },
+  {
+    "id": "st-265",
+    "movieId": "solaris",
+    "cinemaId": "odeon",
+    "dayOffset": 1,
+    "time": "20:00"
+  },
+  {
+    "id": "st-266",
+    "movieId": "solaris",
+    "cinemaId": "odeon",
+    "dayOffset": 2,
+    "time": "13:00"
+  },
+  {
+    "id": "st-267",
+    "movieId": "solaris",
+    "cinemaId": "odeon",
+    "dayOffset": 2,
+    "time": "20:00"
+  },
+  {
+    "id": "st-268",
+    "movieId": "solaris",
+    "cinemaId": "odeon",
+    "dayOffset": 2,
+    "time": "22:00"
+  },
+  {
+    "id": "st-269",
+    "movieId": "solaris",
+    "cinemaId": "odeon",
+    "dayOffset": 4,
+    "time": "13:00"
+  },
+  {
+    "id": "st-270",
+    "movieId": "solaris",
+    "cinemaId": "odeon",
+    "dayOffset": 4,
+    "time": "14:00"
+  },
+  {
+    "id": "st-271",
+    "movieId": "solaris",
+    "cinemaId": "odeon",
+    "dayOffset": 4,
+    "time": "22:30"
+  },
+  {
+    "id": "st-272",
+    "movieId": "solaris",
+    "cinemaId": "odeon",
+    "dayOffset": 5,
+    "time": "22:30"
+  },
+  {
+    "id": "st-273",
+    "movieId": "gerry",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 0,
+    "time": "14:00"
+  },
+  {
+    "id": "st-274",
+    "movieId": "gerry",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 0,
+    "time": "20:00"
+  },
+  {
+    "id": "st-275",
+    "movieId": "gerry",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 1,
+    "time": "22:30"
+  },
+  {
+    "id": "st-276",
+    "movieId": "gerry",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 2,
+    "time": "13:00"
+  },
+  {
+    "id": "st-277",
+    "movieId": "gerry",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 3,
+    "time": "17:30"
+  },
+  {
+    "id": "st-278",
+    "movieId": "gerry",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 4,
+    "time": "13:00"
+  },
+  {
+    "id": "st-279",
+    "movieId": "gerry",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 4,
+    "time": "14:00"
+  },
+  {
+    "id": "st-280",
+    "movieId": "gerry",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 5,
+    "time": "20:00"
+  },
+  {
+    "id": "st-281",
+    "movieId": "gerry",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 6,
+    "time": "13:00"
+  },
+  {
+    "id": "st-282",
+    "movieId": "gerry",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 6,
+    "time": "16:00"
+  },
+  {
+    "id": "st-283",
+    "movieId": "gerry",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 6,
+    "time": "20:00"
+  },
+  {
+    "id": "st-284",
+    "movieId": "gerry",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 0,
+    "time": "13:00"
+  },
+  {
+    "id": "st-285",
+    "movieId": "gerry",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 0,
+    "time": "16:00"
+  },
+  {
+    "id": "st-286",
+    "movieId": "gerry",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 0,
+    "time": "22:30"
+  },
+  {
+    "id": "st-287",
+    "movieId": "gerry",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 2,
+    "time": "14:00"
+  },
+  {
+    "id": "st-288",
+    "movieId": "gerry",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 2,
+    "time": "21:00"
+  },
+  {
+    "id": "st-289",
+    "movieId": "gerry",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 3,
+    "time": "18:30"
+  },
+  {
+    "id": "st-290",
+    "movieId": "gerry",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 3,
+    "time": "20:30"
+  },
+  {
+    "id": "st-291",
+    "movieId": "gerry",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 3,
+    "time": "21:30"
+  },
+  {
+    "id": "st-292",
+    "movieId": "gerry",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 5,
+    "time": "13:00"
+  },
+  {
+    "id": "st-293",
+    "movieId": "gerry",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 6,
+    "time": "21:30"
+  },
+  {
+    "id": "st-294",
+    "movieId": "gerry",
+    "cinemaId": "babylon-mitte",
+    "dayOffset": 6,
+    "time": "22:30"
+  },
+  {
+    "id": "st-295",
+    "movieId": "gerry",
+    "cinemaId": "il-kino",
+    "dayOffset": 1,
+    "time": "16:00"
+  },
+  {
+    "id": "st-296",
+    "movieId": "gerry",
+    "cinemaId": "il-kino",
+    "dayOffset": 2,
+    "time": "16:00"
+  },
+  {
+    "id": "st-297",
+    "movieId": "gerry",
+    "cinemaId": "il-kino",
+    "dayOffset": 2,
+    "time": "19:00"
+  },
+  {
+    "id": "st-298",
+    "movieId": "gerry",
+    "cinemaId": "il-kino",
+    "dayOffset": 2,
+    "time": "20:30"
+  },
+  {
+    "id": "st-299",
+    "movieId": "gerry",
+    "cinemaId": "il-kino",
+    "dayOffset": 3,
+    "time": "13:00"
+  },
+  {
+    "id": "st-300",
+    "movieId": "gerry",
+    "cinemaId": "il-kino",
+    "dayOffset": 3,
+    "time": "14:00"
+  },
+  {
+    "id": "st-301",
+    "movieId": "gerry",
+    "cinemaId": "il-kino",
+    "dayOffset": 4,
+    "time": "21:00"
+  },
+  {
+    "id": "st-302",
+    "movieId": "gerry",
+    "cinemaId": "il-kino",
+    "dayOffset": 4,
+    "time": "22:30"
+  },
+  {
+    "id": "st-303",
+    "movieId": "gerry",
+    "cinemaId": "il-kino",
+    "dayOffset": 6,
+    "time": "18:00"
+  },
+  {
+    "id": "st-304",
+    "movieId": "gerry",
+    "cinemaId": "il-kino",
+    "dayOffset": 6,
+    "time": "18:30"
+  },
+  {
+    "id": "st-305",
+    "movieId": "gerry",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 1,
+    "time": "13:00"
+  },
+  {
+    "id": "st-306",
+    "movieId": "gerry",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 1,
+    "time": "19:00"
+  },
+  {
+    "id": "st-307",
+    "movieId": "gerry",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 1,
+    "time": "20:30"
+  },
+  {
+    "id": "st-308",
+    "movieId": "gerry",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 3,
+    "time": "15:30"
+  },
+  {
+    "id": "st-309",
+    "movieId": "gerry",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 4,
+    "time": "13:00"
+  },
+  {
+    "id": "st-310",
+    "movieId": "gerry",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 4,
+    "time": "16:00"
+  },
+  {
+    "id": "st-311",
+    "movieId": "gerry",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 5,
+    "time": "15:30"
+  },
+  {
+    "id": "st-312",
+    "movieId": "gerry",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 5,
+    "time": "17:30"
+  },
+  {
+    "id": "st-313",
+    "movieId": "gerry",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 5,
+    "time": "21:00"
+  },
+  {
+    "id": "st-314",
+    "movieId": "gerry",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 6,
+    "time": "16:00"
+  },
+  {
+    "id": "st-315",
+    "movieId": "gerry",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 6,
+    "time": "17:30"
+  },
+  {
+    "id": "st-316",
+    "movieId": "gerry",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 6,
+    "time": "21:00"
+  },
+  {
+    "id": "st-317",
+    "movieId": "perfect-days",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 0,
+    "time": "17:30"
+  },
+  {
+    "id": "st-318",
+    "movieId": "perfect-days",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 0,
+    "time": "20:00"
+  },
+  {
+    "id": "st-319",
+    "movieId": "perfect-days",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 1,
+    "time": "13:00"
+  },
+  {
+    "id": "st-320",
+    "movieId": "perfect-days",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 2,
+    "time": "13:00"
+  },
+  {
+    "id": "st-321",
+    "movieId": "perfect-days",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 2,
+    "time": "18:30"
+  },
+  {
+    "id": "st-322",
+    "movieId": "perfect-days",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 2,
+    "time": "19:00"
+  },
+  {
+    "id": "st-323",
+    "movieId": "perfect-days",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 3,
+    "time": "21:00"
+  },
+  {
+    "id": "st-324",
+    "movieId": "perfect-days",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 5,
+    "time": "14:00"
+  },
+  {
+    "id": "st-325",
+    "movieId": "perfect-days",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 5,
+    "time": "15:30"
+  },
+  {
+    "id": "st-326",
+    "movieId": "perfect-days",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 5,
+    "time": "16:00"
+  },
+  {
+    "id": "st-327",
+    "movieId": "perfect-days",
+    "cinemaId": "sputnik-kino",
+    "dayOffset": 6,
+    "time": "14:00"
+  },
+  {
+    "id": "st-328",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 0,
+    "time": "13:00"
+  },
+  {
+    "id": "st-329",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 0,
+    "time": "19:00"
+  },
+  {
+    "id": "st-330",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 0,
+    "time": "22:00"
+  },
+  {
+    "id": "st-331",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 1,
+    "time": "20:00"
+  },
+  {
+    "id": "st-332",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 2,
+    "time": "17:30"
+  },
+  {
+    "id": "st-333",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 2,
+    "time": "20:30"
+  },
+  {
+    "id": "st-334",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 2,
+    "time": "21:30"
+  },
+  {
+    "id": "st-335",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 3,
+    "time": "13:00"
+  },
+  {
+    "id": "st-336",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 3,
+    "time": "16:00"
+  },
+  {
+    "id": "st-337",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 4,
+    "time": "17:30"
+  },
+  {
+    "id": "st-338",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 4,
+    "time": "18:00"
+  },
+  {
+    "id": "st-339",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 4,
+    "time": "19:00"
+  },
+  {
+    "id": "st-340",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "15:30"
+  },
+  {
+    "id": "st-341",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "20:30"
+  },
+  {
+    "id": "st-342",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 6,
+    "time": "13:00"
+  },
+  {
+    "id": "st-343",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 6,
+    "time": "22:00"
+  },
+  {
+    "id": "st-344",
+    "movieId": "perfect-days",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 6,
+    "time": "22:30"
+  },
+  {
+    "id": "st-345",
+    "movieId": "perfect-days",
+    "cinemaId": "moviemento",
+    "dayOffset": 0,
+    "time": "18:00"
+  },
+  {
+    "id": "st-346",
+    "movieId": "perfect-days",
+    "cinemaId": "moviemento",
+    "dayOffset": 0,
+    "time": "19:00"
+  },
+  {
+    "id": "st-347",
+    "movieId": "perfect-days",
+    "cinemaId": "moviemento",
+    "dayOffset": 1,
+    "time": "13:00"
+  },
+  {
+    "id": "st-348",
+    "movieId": "perfect-days",
+    "cinemaId": "moviemento",
+    "dayOffset": 1,
+    "time": "14:00"
+  },
+  {
+    "id": "st-349",
+    "movieId": "perfect-days",
+    "cinemaId": "moviemento",
+    "dayOffset": 1,
+    "time": "21:00"
+  },
+  {
+    "id": "st-350",
+    "movieId": "perfect-days",
+    "cinemaId": "moviemento",
+    "dayOffset": 4,
+    "time": "22:00"
+  },
+  {
+    "id": "st-351",
+    "movieId": "perfect-days",
+    "cinemaId": "moviemento",
+    "dayOffset": 5,
+    "time": "20:00"
+  },
+  {
+    "id": "st-352",
+    "movieId": "perfect-days",
+    "cinemaId": "moviemento",
+    "dayOffset": 5,
+    "time": "21:30"
+  },
+  {
+    "id": "st-353",
+    "movieId": "perfect-days",
+    "cinemaId": "moviemento",
+    "dayOffset": 5,
+    "time": "22:00"
+  },
+  {
+    "id": "st-354",
+    "movieId": "perfect-days",
+    "cinemaId": "moviemento",
+    "dayOffset": 6,
+    "time": "13:00"
+  },
+  {
+    "id": "st-355",
+    "movieId": "perfect-days",
+    "cinemaId": "moviemento",
+    "dayOffset": 6,
+    "time": "16:00"
+  },
+  {
+    "id": "st-356",
+    "movieId": "perfect-days",
+    "cinemaId": "odeon",
+    "dayOffset": 0,
+    "time": "13:00"
+  },
+  {
+    "id": "st-357",
+    "movieId": "perfect-days",
+    "cinemaId": "odeon",
+    "dayOffset": 2,
+    "time": "15:30"
+  },
+  {
+    "id": "st-358",
+    "movieId": "perfect-days",
+    "cinemaId": "odeon",
+    "dayOffset": 2,
+    "time": "21:30"
+  },
+  {
+    "id": "st-359",
+    "movieId": "perfect-days",
+    "cinemaId": "odeon",
+    "dayOffset": 2,
+    "time": "22:00"
+  },
+  {
+    "id": "st-360",
+    "movieId": "perfect-days",
+    "cinemaId": "odeon",
+    "dayOffset": 3,
+    "time": "17:30"
+  },
+  {
+    "id": "st-361",
+    "movieId": "perfect-days",
+    "cinemaId": "odeon",
+    "dayOffset": 3,
+    "time": "21:30"
+  },
+  {
+    "id": "st-362",
+    "movieId": "perfect-days",
+    "cinemaId": "odeon",
+    "dayOffset": 3,
+    "time": "22:00"
+  },
+  {
+    "id": "st-363",
+    "movieId": "perfect-days",
+    "cinemaId": "odeon",
+    "dayOffset": 4,
+    "time": "13:00"
+  },
+  {
+    "id": "st-364",
+    "movieId": "perfect-days",
+    "cinemaId": "odeon",
+    "dayOffset": 4,
+    "time": "19:00"
+  },
+  {
+    "id": "st-365",
+    "movieId": "perfect-days",
+    "cinemaId": "odeon",
+    "dayOffset": 5,
+    "time": "14:00"
+  },
+  {
+    "id": "st-366",
+    "movieId": "perfect-days",
+    "cinemaId": "odeon",
+    "dayOffset": 5,
+    "time": "21:30"
+  },
+  {
+    "id": "st-367",
+    "movieId": "perfect-days",
+    "cinemaId": "odeon",
+    "dayOffset": 6,
+    "time": "22:30"
+  },
+  {
+    "id": "st-368",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 0,
+    "time": "13:00"
+  },
+  {
+    "id": "st-369",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 0,
+    "time": "22:00"
+  },
+  {
+    "id": "st-370",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 1,
+    "time": "14:00"
+  },
+  {
+    "id": "st-371",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 1,
+    "time": "15:30"
+  },
+  {
+    "id": "st-372",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 1,
+    "time": "20:00"
+  },
+  {
+    "id": "st-373",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 4,
+    "time": "19:00"
+  },
+  {
+    "id": "st-374",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 4,
+    "time": "22:00"
+  },
+  {
+    "id": "st-375",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 5,
+    "time": "17:30"
+  },
+  {
+    "id": "st-376",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 6,
+    "time": "19:00"
+  },
+  {
+    "id": "st-377",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 6,
+    "time": "20:00"
+  },
+  {
+    "id": "st-378",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "babylon-kreuzberg",
+    "dayOffset": 6,
+    "time": "21:00"
+  },
+  {
+    "id": "st-379",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 0,
+    "time": "13:00"
+  },
+  {
+    "id": "st-380",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 0,
+    "time": "20:30"
+  },
+  {
+    "id": "st-381",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 0,
+    "time": "22:00"
+  },
+  {
+    "id": "st-382",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 1,
+    "time": "18:00"
+  },
+  {
+    "id": "st-383",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 1,
+    "time": "20:00"
+  },
+  {
+    "id": "st-384",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 1,
+    "time": "21:00"
+  },
+  {
+    "id": "st-385",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 2,
+    "time": "14:00"
+  },
+  {
+    "id": "st-386",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 2,
+    "time": "18:00"
+  },
+  {
+    "id": "st-387",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 4,
+    "time": "18:30"
+  },
+  {
+    "id": "st-388",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 4,
+    "time": "19:00"
+  },
+  {
+    "id": "st-389",
+    "movieId": "the-zone-of-interest",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "14:00"
+  },
+  {
+    "id": "st-390",
+    "movieId": "challengers",
+    "cinemaId": "il-kino",
+    "dayOffset": 0,
+    "time": "16:00"
+  },
+  {
+    "id": "st-391",
+    "movieId": "challengers",
+    "cinemaId": "il-kino",
+    "dayOffset": 2,
+    "time": "13:00"
+  },
+  {
+    "id": "st-392",
+    "movieId": "challengers",
+    "cinemaId": "il-kino",
+    "dayOffset": 2,
+    "time": "15:30"
+  },
+  {
+    "id": "st-393",
+    "movieId": "challengers",
+    "cinemaId": "il-kino",
+    "dayOffset": 2,
+    "time": "19:00"
+  },
+  {
+    "id": "st-394",
+    "movieId": "challengers",
+    "cinemaId": "il-kino",
+    "dayOffset": 3,
+    "time": "18:00"
+  },
+  {
+    "id": "st-395",
+    "movieId": "challengers",
+    "cinemaId": "il-kino",
+    "dayOffset": 3,
+    "time": "18:30"
+  },
+  {
+    "id": "st-396",
+    "movieId": "challengers",
+    "cinemaId": "il-kino",
+    "dayOffset": 3,
+    "time": "22:30"
+  },
+  {
+    "id": "st-397",
+    "movieId": "challengers",
+    "cinemaId": "il-kino",
+    "dayOffset": 6,
+    "time": "13:00"
+  },
+  {
+    "id": "st-398",
+    "movieId": "challengers",
+    "cinemaId": "il-kino",
+    "dayOffset": 6,
+    "time": "20:00"
+  },
+  {
+    "id": "st-399",
+    "movieId": "challengers",
+    "cinemaId": "il-kino",
+    "dayOffset": 6,
+    "time": "22:30"
+  },
+  {
+    "id": "st-400",
+    "movieId": "challengers",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 0,
+    "time": "19:00"
+  },
+  {
+    "id": "st-401",
+    "movieId": "challengers",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 2,
+    "time": "16:00"
+  },
+  {
+    "id": "st-402",
+    "movieId": "challengers",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 2,
+    "time": "18:00"
+  },
+  {
+    "id": "st-403",
+    "movieId": "challengers",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 2,
+    "time": "21:30"
+  },
+  {
+    "id": "st-404",
+    "movieId": "challengers",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 4,
+    "time": "22:00"
+  },
+  {
+    "id": "st-405",
+    "movieId": "challengers",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 5,
+    "time": "19:00"
+  },
+  {
+    "id": "st-406",
+    "movieId": "challengers",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 5,
+    "time": "20:30"
+  },
+  {
+    "id": "st-407",
+    "movieId": "challengers",
+    "cinemaId": "moviemento",
+    "dayOffset": 0,
+    "time": "20:30"
+  },
+  {
+    "id": "st-408",
+    "movieId": "challengers",
+    "cinemaId": "moviemento",
+    "dayOffset": 1,
+    "time": "14:00"
+  },
+  {
+    "id": "st-409",
+    "movieId": "challengers",
+    "cinemaId": "moviemento",
+    "dayOffset": 1,
+    "time": "17:30"
+  },
+  {
+    "id": "st-410",
+    "movieId": "challengers",
+    "cinemaId": "moviemento",
+    "dayOffset": 2,
+    "time": "14:00"
+  },
+  {
+    "id": "st-411",
+    "movieId": "challengers",
+    "cinemaId": "moviemento",
+    "dayOffset": 2,
+    "time": "15:30"
+  },
+  {
+    "id": "st-412",
+    "movieId": "challengers",
+    "cinemaId": "moviemento",
+    "dayOffset": 2,
+    "time": "22:30"
+  },
+  {
+    "id": "st-413",
+    "movieId": "challengers",
+    "cinemaId": "moviemento",
+    "dayOffset": 3,
+    "time": "15:30"
+  },
+  {
+    "id": "st-414",
+    "movieId": "challengers",
+    "cinemaId": "moviemento",
+    "dayOffset": 3,
+    "time": "17:30"
+  },
+  {
+    "id": "st-415",
+    "movieId": "challengers",
+    "cinemaId": "moviemento",
+    "dayOffset": 6,
+    "time": "17:30"
+  },
+  {
+    "id": "st-416",
+    "movieId": "challengers",
+    "cinemaId": "moviemento",
+    "dayOffset": 6,
+    "time": "22:00"
+  },
+  {
+    "id": "st-417",
+    "movieId": "challengers",
+    "cinemaId": "moviemento",
+    "dayOffset": 6,
+    "time": "22:30"
+  },
+  {
+    "id": "st-418",
+    "movieId": "aftersun",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 0,
+    "time": "13:00"
+  },
+  {
+    "id": "st-419",
+    "movieId": "aftersun",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 0,
+    "time": "14:00"
+  },
+  {
+    "id": "st-420",
+    "movieId": "aftersun",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 0,
+    "time": "19:00"
+  },
+  {
+    "id": "st-421",
+    "movieId": "aftersun",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 1,
+    "time": "16:00"
+  },
+  {
+    "id": "st-422",
+    "movieId": "aftersun",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 1,
+    "time": "18:00"
+  },
+  {
+    "id": "st-423",
+    "movieId": "aftersun",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 1,
+    "time": "21:00"
+  },
+  {
+    "id": "st-424",
+    "movieId": "aftersun",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 2,
+    "time": "17:30"
+  },
+  {
+    "id": "st-425",
+    "movieId": "aftersun",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 2,
+    "time": "18:00"
+  },
+  {
+    "id": "st-426",
+    "movieId": "aftersun",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 4,
+    "time": "18:30"
+  },
+  {
+    "id": "st-427",
+    "movieId": "aftersun",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 4,
+    "time": "20:00"
+  },
+  {
+    "id": "st-428",
+    "movieId": "aftersun",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 4,
+    "time": "22:00"
+  },
+  {
+    "id": "st-429",
+    "movieId": "aftersun",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 5,
+    "time": "13:00"
+  },
+  {
+    "id": "st-430",
+    "movieId": "aftersun",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 5,
+    "time": "16:00"
+  },
+  {
+    "id": "st-431",
+    "movieId": "aftersun",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 5,
+    "time": "19:00"
+  },
+  {
+    "id": "st-432",
+    "movieId": "aftersun",
+    "cinemaId": "zoo-palast",
+    "dayOffset": 6,
+    "time": "13:00"
+  },
+  {
+    "id": "st-433",
+    "movieId": "aftersun",
+    "cinemaId": "central-kino",
+    "dayOffset": 0,
+    "time": "16:00"
+  },
+  {
+    "id": "st-434",
+    "movieId": "aftersun",
+    "cinemaId": "central-kino",
+    "dayOffset": 0,
+    "time": "18:30"
+  },
+  {
+    "id": "st-435",
+    "movieId": "aftersun",
+    "cinemaId": "central-kino",
+    "dayOffset": 0,
+    "time": "21:00"
+  },
+  {
+    "id": "st-436",
+    "movieId": "aftersun",
+    "cinemaId": "central-kino",
+    "dayOffset": 1,
+    "time": "13:00"
+  },
+  {
+    "id": "st-437",
+    "movieId": "aftersun",
+    "cinemaId": "central-kino",
+    "dayOffset": 2,
+    "time": "14:00"
+  },
+  {
+    "id": "st-438",
+    "movieId": "aftersun",
+    "cinemaId": "central-kino",
+    "dayOffset": 3,
+    "time": "21:00"
+  },
+  {
+    "id": "st-439",
+    "movieId": "aftersun",
+    "cinemaId": "central-kino",
+    "dayOffset": 5,
+    "time": "18:30"
+  },
+  {
+    "id": "st-440",
+    "movieId": "aftersun",
+    "cinemaId": "central-kino",
+    "dayOffset": 6,
+    "time": "20:30"
+  },
+  {
+    "id": "st-441",
+    "movieId": "aftersun",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 2,
+    "time": "17:30"
+  },
+  {
+    "id": "st-442",
+    "movieId": "aftersun",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 2,
+    "time": "18:30"
+  },
+  {
+    "id": "st-443",
+    "movieId": "aftersun",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 2,
+    "time": "21:00"
+  },
+  {
+    "id": "st-444",
+    "movieId": "aftersun",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 4,
+    "time": "16:00"
+  },
+  {
+    "id": "st-445",
+    "movieId": "aftersun",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 5,
+    "time": "14:00"
+  },
+  {
+    "id": "st-446",
+    "movieId": "aftersun",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 5,
+    "time": "20:30"
+  },
+  {
+    "id": "st-447",
+    "movieId": "aftersun",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 5,
+    "time": "21:00"
+  },
+  {
+    "id": "st-448",
+    "movieId": "aftersun",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 6,
+    "time": "17:30"
+  },
+  {
+    "id": "st-449",
+    "movieId": "aftersun",
+    "cinemaId": "filmtheater-friedrichshain",
+    "dayOffset": 6,
+    "time": "18:30"
+  },
+  {
+    "id": "st-450",
+    "movieId": "past-lives",
+    "cinemaId": "central-kino",
+    "dayOffset": 1,
+    "time": "13:00"
+  },
+  {
+    "id": "st-451",
+    "movieId": "past-lives",
+    "cinemaId": "central-kino",
+    "dayOffset": 1,
+    "time": "21:30"
+  },
+  {
+    "id": "st-452",
+    "movieId": "past-lives",
+    "cinemaId": "central-kino",
+    "dayOffset": 2,
+    "time": "15:30"
+  },
+  {
+    "id": "st-453",
+    "movieId": "past-lives",
+    "cinemaId": "central-kino",
+    "dayOffset": 2,
+    "time": "19:00"
+  },
+  {
+    "id": "st-454",
+    "movieId": "past-lives",
+    "cinemaId": "central-kino",
+    "dayOffset": 2,
+    "time": "22:30"
+  },
+  {
+    "id": "st-455",
+    "movieId": "past-lives",
+    "cinemaId": "central-kino",
+    "dayOffset": 3,
+    "time": "18:00"
+  },
+  {
+    "id": "st-456",
+    "movieId": "past-lives",
+    "cinemaId": "central-kino",
+    "dayOffset": 3,
+    "time": "19:00"
+  },
+  {
+    "id": "st-457",
+    "movieId": "past-lives",
+    "cinemaId": "central-kino",
+    "dayOffset": 3,
+    "time": "20:00"
+  },
+  {
+    "id": "st-458",
+    "movieId": "past-lives",
+    "cinemaId": "central-kino",
+    "dayOffset": 5,
+    "time": "13:00"
+  },
+  {
+    "id": "st-459",
+    "movieId": "past-lives",
+    "cinemaId": "central-kino",
+    "dayOffset": 5,
+    "time": "22:00"
+  },
+  {
+    "id": "st-460",
+    "movieId": "past-lives",
+    "cinemaId": "central-kino",
+    "dayOffset": 6,
+    "time": "13:00"
+  },
+  {
+    "id": "st-461",
+    "movieId": "past-lives",
+    "cinemaId": "central-kino",
+    "dayOffset": 6,
+    "time": "17:30"
+  },
+  {
+    "id": "st-462",
+    "movieId": "past-lives",
+    "cinemaId": "central-kino",
+    "dayOffset": 6,
+    "time": "22:30"
+  },
+  {
+    "id": "st-463",
+    "movieId": "past-lives",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 0,
+    "time": "17:30"
+  },
+  {
+    "id": "st-464",
+    "movieId": "past-lives",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 0,
+    "time": "18:00"
+  },
+  {
+    "id": "st-465",
+    "movieId": "past-lives",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 0,
+    "time": "18:30"
+  },
+  {
+    "id": "st-466",
+    "movieId": "past-lives",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 1,
+    "time": "17:30"
+  },
+  {
+    "id": "st-467",
+    "movieId": "past-lives",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 1,
+    "time": "19:00"
+  },
+  {
+    "id": "st-468",
+    "movieId": "past-lives",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 1,
+    "time": "21:00"
+  },
+  {
+    "id": "st-469",
+    "movieId": "past-lives",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 2,
+    "time": "13:00"
+  },
+  {
+    "id": "st-470",
+    "movieId": "past-lives",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 3,
+    "time": "14:00"
+  },
+  {
+    "id": "st-471",
+    "movieId": "past-lives",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 4,
+    "time": "18:00"
+  },
+  {
+    "id": "st-472",
+    "movieId": "past-lives",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 4,
+    "time": "18:30"
+  },
+  {
+    "id": "st-473",
+    "movieId": "past-lives",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "13:00"
+  },
+  {
+    "id": "st-474",
+    "movieId": "past-lives",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "18:00"
+  },
+  {
+    "id": "st-475",
+    "movieId": "past-lives",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 5,
+    "time": "22:00"
+  },
+  {
+    "id": "st-476",
+    "movieId": "past-lives",
+    "cinemaId": "yorck-kino",
+    "dayOffset": 6,
+    "time": "20:30"
+  }
+]

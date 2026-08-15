@@ -1,0 +1,181 @@
+.movie-detail__hero {
+  aspect-ratio: 3 / 4;
+  padding: 18px;
+}
+
+.movie-detail__back {
+  position: absolute;
+  top: calc(18px + var(--safe-top));
+  left: 18px;
+}
+
+.movie-detail__hero-info {
+  width: 100%;
+  text-align: center;
+}
+
+.movie-detail__title {
+  font-size: 32px;
+  margin: 4px 0;
+}
+
+.movie-detail__more {
+  margin-top: 6px;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.movie-detail__synopsis {
+  padding: 14px 18px 0;
+  color: var(--text-muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.movie-detail__synopsis p:first-child {
+  color: var(--text);
+  margin-top: 0;
+}
+
+.movie-detail__cta-row {
+  display: flex;
+  gap: 10px;
+  padding: 16px 18px 0;
+}
+
+.cta-button {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: var(--surface-2);
+  border: 1px solid var(--border-strong);
+  color: var(--text);
+  font-weight: 700;
+  font-size: 13px;
+  padding: 11px 8px;
+  border-radius: 999px;
+}
+
+.cta-button:disabled {
+  opacity: 0.45;
+}
+
+.cta-button--active {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.movie-detail__dates {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 18px 18px 0;
+}
+
+.date-pill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  min-width: 56px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.date-pill--active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #180008;
+}
+
+.date-pill__label {
+  text-transform: uppercase;
+  font-size: 10px;
+  opacity: 0.85;
+}
+
+.date-pill__num {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.movie-detail__sort-row {
+  display: flex;
+  justify-content: flex-end;
+  padding: 14px 18px 0;
+}
+
+.movie-detail__sort {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.movie-detail__cinemas {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 12px 18px 8px;
+}
+
+.cinema-showtimes {
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.cinema-showtimes__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cinema-showtimes__name {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+
+.cinema-showtimes__times {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.time-pill {
+  background: var(--accent-soft);
+  border: 1px solid transparent;
+  color: var(--accent-strong);
+  font-weight: 700;
+  font-size: 13px;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+}
+
+.time-pill--active {
+  background: var(--accent);
+  color: #180008;
+}
+
+.movie-detail__hint {
+  text-align: center;
+  padding: 4px 18px calc(20px + var(--safe-bottom));
+}

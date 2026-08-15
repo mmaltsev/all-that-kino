@@ -1,0 +1,99 @@
+.letterboxd-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 4px;
+  padding-bottom: 60px;
+}
+
+.letterboxd-logo {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.letterboxd-logo__dot {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  margin-left: -10px;
+  mix-blend-mode: screen;
+}
+
+.letterboxd-logo__dot:first-child {
+  margin-left: 0;
+}
+
+.letterboxd-title {
+  font-size: 24px;
+  max-width: 300px;
+  margin: 0 0 20px;
+}
+
+.letterboxd-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.letterboxd-connected {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin: 0 0 20px;
+}
+
+.letterboxd-connected strong {
+  color: var(--text);
+}
+
+.letterboxd-input {
+  width: 100%;
+  max-width: 320px;
+  background: var(--surface-2);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  color: var(--text);
+  font-size: 15px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.letterboxd-input::placeholder {
+  color: var(--text-faint);
+}
+
+.letterboxd-submit {
+  width: 100%;
+  max-width: 320px;
+  background: var(--accent);
+  color: #180008;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  padding: 15px;
+  border-radius: var(--radius-md);
+  border: none;
+}
+
+.letterboxd-disconnect {
+  margin-top: 12px;
+  background: none;
+  border: none;
+  color: var(--text-faint);
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.letterboxd-disclaimer {
+  max-width: 300px;
+  margin-top: 18px;
+}

@@ -1,0 +1,79 @@
+.cinema-map {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+  min-height: 0;
+}
+
+.cinema-map__canvas {
+  position: relative;
+  flex: 1;
+  min-height: 340px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: #121212;
+  border: 1px solid var(--border);
+}
+
+.cinema-map__streets {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cinema-map__streets line {
+  stroke: rgba(255, 255, 255, 0.07);
+  stroke-width: 0.6;
+}
+
+.cinema-map__pin {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  width: 30px;
+  height: 30px;
+  border-radius: 999px 999px 999px 2px;
+  background: #1f1f1f;
+  border: 1.5px solid var(--border-strong);
+  color: #d8d8d8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: bottom center;
+  transition: transform 0.12s ease, background 0.12s ease, border-color 0.12s ease;
+}
+
+.cinema-map__pin--fav {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.cinema-map__pin--active {
+  transform: translate(-50%, -100%) scale(1.25);
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #180008;
+  z-index: 2;
+}
+
+.cinema-map__sheet {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.cinema-map__screenings {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--text-muted);
+}

@@ -1,0 +1,28 @@
+.movie-backdrop {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+}
+
+.movie-backdrop__initial {
+  position: absolute;
+  top: -0.12em;
+  right: -0.06em;
+  font-size: 9em;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.07);
+  line-height: 1;
+  user-select: none;
+  pointer-events: none;
+}
+
+.movie-backdrop__grain {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 3px 3px;
+  mix-blend-mode: overlay;
+  opacity: 0.5;
+  pointer-events: none;
+}

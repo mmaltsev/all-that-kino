@@ -1,0 +1,156 @@
+[
+  {
+    "id": "marty-supreme",
+    "title": "Marty Supreme",
+    "director": "Josh Safdie",
+    "year": 2025,
+    "runtimeMinutes": 172,
+    "genres": ["Drama", "Sport"],
+    "country": "USA",
+    "synopsis": "A relentless table-tennis hustler claws his way from smoky Manhattan basements toward a shot at greatness, dragging everyone around him into his obsession.",
+    "backdropColor": "#1c2b33"
+  },
+  {
+    "id": "the-secret-agent",
+    "title": "The Secret Agent",
+    "director": "Kleber Mendonça Filho",
+    "year": 2025,
+    "runtimeMinutes": 160,
+    "genres": ["Thriller", "Drama"],
+    "country": "Brazil",
+    "synopsis": "During Brazil's military dictatorship, a technologist on the run tries to disappear into the crowds of Recife while the past keeps dialing his number.",
+    "backdropColor": "#4a2f21"
+  },
+  {
+    "id": "no-other-choice",
+    "title": "No Other Choice",
+    "director": "Park Chan-wook",
+    "year": 2025,
+    "runtimeMinutes": 139,
+    "genres": ["Thriller", "Black Comedy"],
+    "country": "South Korea",
+    "synopsis": "Freshly laid off and running out of options, a mild-mannered paper-factory man decides the only rational move left is to eliminate the competition. Literally.",
+    "backdropColor": "#16202b"
+  },
+  {
+    "id": "taxi-driver",
+    "title": "Taxi Driver",
+    "director": "Martin Scorsese",
+    "year": 1976,
+    "runtimeMinutes": 114,
+    "genres": ["Drama", "Crime"],
+    "country": "USA",
+    "synopsis": "A sleepless Vietnam veteran drives the night shift through a city he can't stand, tightening toward a violence he mistakes for purpose.",
+    "backdropColor": "#3a1414"
+  },
+  {
+    "id": "lilo-and-stitch",
+    "title": "Lilo & Stitch",
+    "director": "Dean Fleischer Camp",
+    "year": 2025,
+    "runtimeMinutes": 108,
+    "genres": ["Family", "Sci-Fi"],
+    "country": "USA",
+    "synopsis": "A lonely Hawaiian girl adopts what she thinks is a stray dog. It is, in fact, a genetically engineered fugitive from outer space. Ohana ensues.",
+    "backdropColor": "#2a3b52"
+  },
+  {
+    "id": "an-elephant-sitting-still",
+    "title": "An Elephant Sitting Still",
+    "director": "Hu Bo",
+    "year": 2018,
+    "runtimeMinutes": 234,
+    "genres": ["Drama"],
+    "country": "China",
+    "synopsis": "Four lives in a grey industrial town circle a single rumor: somewhere in Manzhouli, an elephant sits and ignores the world. Maybe that's the point.",
+    "backdropColor": "#22262a"
+  },
+  {
+    "id": "resurrection",
+    "title": "Resurrection",
+    "director": "Bertrand Bonello",
+    "year": 2025,
+    "runtimeMinutes": 92,
+    "genres": ["Drama", "Fantasy"],
+    "country": "France",
+    "synopsis": "A woman's carefully rebuilt life starts to unravel the moment a face from her past resurfaces, unchanged, at her front door.",
+    "backdropColor": "#2f2140"
+  },
+  {
+    "id": "solaris",
+    "title": "Solaris",
+    "director": "Andrei Tarkovsky",
+    "year": 1972,
+    "runtimeMinutes": 167,
+    "genres": ["Sci-Fi", "Drama"],
+    "country": "USSR",
+    "synopsis": "A psychologist sent to a research station orbiting a sentient ocean planet finds the planet answering his grief with visitors who shouldn't exist.",
+    "backdropColor": "#1a2e2e"
+  },
+  {
+    "id": "gerry",
+    "title": "Gerry",
+    "director": "Gus Van Sant",
+    "year": 2002,
+    "runtimeMinutes": 103,
+    "genres": ["Drama", "Adventure"],
+    "country": "USA",
+    "synopsis": "Two friends named Gerry wander off a desert trail for 'the wilderness portion' of a hike and just keep walking, further than either wants to admit.",
+    "backdropColor": "#5a4a2f"
+  },
+  {
+    "id": "perfect-days",
+    "title": "Perfect Days",
+    "director": "Wim Wenders",
+    "year": 2023,
+    "runtimeMinutes": 123,
+    "genres": ["Drama"],
+    "country": "Japan",
+    "synopsis": "A Tokyo toilet cleaner finds quiet contentment in routine, cassette tapes, and the light through leaves — until his niece shows up unannounced.",
+    "backdropColor": "#345040"
+  },
+  {
+    "id": "the-zone-of-interest",
+    "title": "The Zone of Interest",
+    "director": "Jonathan Glazer",
+    "year": 2023,
+    "runtimeMinutes": 105,
+    "genres": ["Drama", "War"],
+    "country": "UK",
+    "synopsis": "A commandant and his wife build a model garden life for their family, just over the wall from the camp he runs.",
+    "backdropColor": "#3d4a2e"
+  },
+  {
+    "id": "challengers",
+    "title": "Challengers",
+    "director": "Luca Guadagnino",
+    "year": 2024,
+    "runtimeMinutes": 131,
+    "genres": ["Drama", "Sport", "Romance"],
+    "country": "USA",
+    "synopsis": "A former tennis prodigy turned coach watches her husband face his old best friend and rival across the net — and across everything else.",
+    "backdropColor": "#4a3820"
+  },
+  {
+    "id": "aftersun",
+    "title": "Aftersun",
+    "director": "Charlotte Wells",
+    "year": 2022,
+    "runtimeMinutes": 102,
+    "genres": ["Drama"],
+    "country": "UK",
+    "synopsis": "Twenty years on, a woman replays camcorder footage from a Turkish package holiday with her father, looking for what she couldn't see at eleven.",
+    "backdropColor": "#2e4550"
+  },
+  {
+    "id": "past-lives",
+    "title": "Past Lives",
+    "director": "Celine Song",
+    "year": 2023,
+    "runtimeMinutes": 105,
+    "genres": ["Drama", "Romance"],
+    "country": "South Korea",
+    "synopsis": "Childhood sweethearts separated by emigration reunite in New York, twenty-four years and one marriage later, for one impossible week.",
+    "backdropColor": "#40303e"
+  }
+]

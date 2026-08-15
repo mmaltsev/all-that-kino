@@ -1,0 +1,10 @@
+.page-title {
+  font-size: 26px;
+  margin: 0;
+}
+
+.movies-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
