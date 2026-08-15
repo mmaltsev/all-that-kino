@@ -9,8 +9,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icons/icon-192.png', 'icons/icon-512.png'],
       manifest: {
-        name: 'Paradiso — Berlin Cinema Listings',
-        short_name: 'Paradiso',
+        name: 'All that Kino — Berlin Cinema Listings',
+        short_name: 'All that Kino',
         description: 'Local cinema and movie screening listings for Berlin, synced with your Letterboxd watchlist.',
         theme_color: '#0a0a0a',
         background_color: '#0a0a0a',
