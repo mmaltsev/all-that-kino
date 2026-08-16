@@ -1,0 +1,7 @@
+.account-button {
+  background: var(--surface-2);
+  border: 1px solid var(--border-strong);
+  font-weight: 800;
+  font-size: 14px;
+  flex-shrink: 0;
+}

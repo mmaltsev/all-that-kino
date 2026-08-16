@@ -157,3 +157,101 @@
   max-width: 300px;
   margin-top: 18px;
 }
+
+.account-section {
+  width: 100%;
+  max-width: 320px;
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.account-section__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  text-align: left;
+}
+
+.account-section__label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.account-section__value {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.account-link-button {
+  flex-shrink: 0;
+  background: var(--surface-2);
+  border: 1px solid var(--border-strong);
+  color: var(--text);
+  font-weight: 700;
+  font-size: 12px;
+  padding: 8px 16px;
+  border-radius: 999px;
+}
+
+.account-danger-zone {
+  width: 100%;
+  max-width: 320px;
+  margin-top: 20px;
+}
+
+.account-danger-link {
+  background: none;
+  border: none;
+  color: var(--text-faint);
+  font-size: 13px;
+}
+
+.account-confirm-delete {
+  text-align: left;
+  background: rgba(255, 107, 107, 0.08);
+  border: 1px solid rgba(255, 107, 107, 0.3);
+  border-radius: var(--radius-md);
+  padding: 14px;
+}
+
+.account-confirm-delete p {
+  margin: 0 0 12px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.account-confirm-delete__actions {
+  display: flex;
+  gap: 10px;
+}
+
+.account-cancel {
+  flex: 1;
+  background: var(--surface-2);
+  border: 1px solid var(--border-strong);
+  color: var(--text);
+  font-weight: 700;
+  font-size: 13px;
+  padding: 11px;
+  border-radius: var(--radius-sm);
+}
+
+.account-danger-button {
+  flex: 1;
+  background: #ff6b6b;
+  border: none;
+  color: #2a0000;
+  font-weight: 800;
+  font-size: 13px;
+  padding: 11px;
+  border-radius: var(--radius-sm);
+}
+
+.account-cancel:disabled,
+.account-danger-button:disabled {
+  opacity: 0.6;
+}

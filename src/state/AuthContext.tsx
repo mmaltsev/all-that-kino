@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from 'react'
 import {
   createUserWithEmailAndPassword,
+  deleteUser,
   onAuthStateChanged,
   signInWithEmailAndPassword,
   signInWithPopup,
@@ -17,6 +18,7 @@ interface AuthContextValue {
   signInWithEmail: (email: string, password: string) => Promise<void>
   signInWithGoogle: () => Promise<void>
   signOutUser: () => Promise<void>
+  deleteAccount: () => Promise<void>
 }
 
 const AuthContext = createContext<AuthContextValue | null>(null)
@@ -53,6 +55,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     },
     async signOutUser() {
       await signOut(requireAuth())
+    },
+    async deleteAccount() {
+      const current = requireAuth().currentUser
+      if (!current) throw new Error('Not signed in.')
+      await deleteUser(current)
     }
   }
 

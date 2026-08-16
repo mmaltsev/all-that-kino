@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { movies, showtimes } from '../data'
 import MovieCard from '../components/MovieCard'
 import { PillGroup } from '../components/PillGroup'
+import AccountButton from '../components/AccountButton'
 import { BellIcon, CalendarIcon, SlidersIcon } from '../components/Icons'
 import './MoviesPage.css'
 
@@ -23,9 +24,12 @@ export default function MoviesPage() {
           <div className="eyebrow">Berlin</div>
           <h1 className="heading page-title">Movies</h1>
         </div>
-        <button className="icon-button" aria-label="Notifications">
-          <BellIcon />
-        </button>
+        <div className="page-header__actions">
+          <button className="icon-button" aria-label="Notifications">
+            <BellIcon />
+          </button>
+          <AccountButton />
+        </div>
       </header>
       <div className="page-body">
         <PillGroup

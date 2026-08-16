@@ -1,6 +1,7 @@
 import { useState, type FormEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../state/AuthContext'
+import { useAppState } from '../state/AppState'
 import IconButton from '../components/IconButton'
 import { ArrowLeftIcon } from '../components/Icons'
 import './AccountPage.css'
@@ -22,6 +23,8 @@ function authErrorMessage(err: unknown): string {
       return 'Password should be at least 6 characters.'
     case 'auth/popup-closed-by-user':
       return ''
+    case 'auth/requires-recent-login':
+      return 'For security, please sign out and sign back in, then try deleting your account again.'
     default:
       return 'Something went wrong. Please try again.'
   }
@@ -29,12 +32,15 @@ function authErrorMessage(err: unknown): string {
 
 export default function AccountPage() {
   const navigate = useNavigate()
-  const { user, initializing, isConfigured, signInWithEmail, signUpWithEmail, signInWithGoogle, signOutUser } = useAuth()
+  const { user, initializing, isConfigured, signInWithEmail, signUpWithEmail, signInWithGoogle, signOutUser, deleteAccount } = useAuth()
+  const { letterboxd } = useAppState()
   const [mode, setMode] = useState<Mode>('sign-in')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState<string | null>(null)
   const [busy, setBusy] = useState(false)
+  const [confirmingDelete, setConfirmingDelete] = useState(false)
+  const [deleteError, setDeleteError] = useState<string | null>(null)
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault()
@@ -43,6 +49,7 @@ export default function AccountPage() {
     try {
       if (mode === 'sign-in') await signInWithEmail(email, password)
       else await signUpWithEmail(email, password)
+      navigate('/movies')
     } catch (err) {
       setError(authErrorMessage(err))
     } finally {
@@ -55,6 +62,7 @@ export default function AccountPage() {
     setBusy(true)
     try {
       await signInWithGoogle()
+      navigate('/movies')
     } catch (err) {
       const msg = authErrorMessage(err)
       if (msg) setError(msg)
@@ -67,6 +75,18 @@ export default function AccountPage() {
     setBusy(true)
     await signOutUser()
     setBusy(false)
+  }
+
+  const handleDeleteAccount = async () => {
+    setBusy(true)
+    setDeleteError(null)
+    try {
+      await deleteAccount()
+    } catch (err) {
+      setDeleteError(authErrorMessage(err) || 'Could not delete account. Please try again.')
+    } finally {
+      setBusy(false)
+    }
   }
 
   return (
@@ -95,6 +115,48 @@ export default function AccountPage() {
             <button className="account-submit account-signout" disabled={busy} onClick={handleSignOut}>
               Sign Out
             </button>
+
+            <div className="account-section">
+              <div className="account-section__row">
+                <div>
+                  <div className="account-section__label">Letterboxd</div>
+                  <div className="account-section__value">
+                    {letterboxd ? `Connected as @${letterboxd.username}` : 'Not connected'}
+                  </div>
+                </div>
+                <button className="account-link-button" onClick={() => navigate('/letterboxd')}>
+                  Manage
+                </button>
+              </div>
+            </div>
+
+            <div className="account-danger-zone">
+              {!confirmingDelete ? (
+                <button className="account-danger-link" onClick={() => setConfirmingDelete(true)}>
+                  Delete Account
+                </button>
+              ) : (
+                <div className="account-confirm-delete">
+                  <p>This permanently deletes your account. This can't be undone.</p>
+                  {deleteError && <p className="account-error">{deleteError}</p>}
+                  <div className="account-confirm-delete__actions">
+                    <button
+                      className="account-cancel"
+                      disabled={busy}
+                      onClick={() => {
+                        setConfirmingDelete(false)
+                        setDeleteError(null)
+                      }}
+                    >
+                      Cancel
+                    </button>
+                    <button className="account-danger-button" disabled={busy} onClick={handleDeleteAccount}>
+                      {busy ? 'Deleting…' : 'Yes, Delete'}
+                    </button>
+                  </div>
+                </div>
+              )}
+            </div>
           </>
         ) : (
           <>

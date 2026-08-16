@@ -4,6 +4,7 @@ import { PillGroup } from '../components/PillGroup'
 import { MapIcon, ListIcon, StarIcon } from '../components/Icons'
 import CinemaMap from '../components/CinemaMap'
 import CinemaListItem from '../components/CinemaListItem'
+import AccountButton from '../components/AccountButton'
 import { useAppState } from '../state/AppState'
 import './CinemasPage.css'
 
@@ -24,6 +25,9 @@ export default function CinemasPage() {
         <div>
           <div className="eyebrow">Berlin</div>
           <h1 className="heading page-title">Cinemas</h1>
+        </div>
+        <div className="page-header__actions">
+          <AccountButton />
         </div>
       </header>
       <div className="page-body cinemas-body">

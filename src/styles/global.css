@@ -107,6 +107,12 @@ img {
   justify-content: space-between;
 }
 
+.page-header__actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .page-body {
   flex: 1;
   padding: 14px 18px calc(24px + var(--safe-bottom));
