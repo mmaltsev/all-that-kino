@@ -153,9 +153,25 @@
   opacity: 0.6;
 }
 
-.account-disclaimer {
+.account-consent {
   max-width: 300px;
   margin-top: 18px;
+  line-height: 1.5;
+}
+
+.account-consent a {
+  color: var(--text-muted);
+  text-decoration: underline;
+}
+
+.account-language-row {
+  margin-top: 26px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  justify-content: center;
 }
 
 .account-section {

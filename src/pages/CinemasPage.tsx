@@ -6,6 +6,7 @@ import CinemaMap from '../components/CinemaMap'
 import CinemaListItem from '../components/CinemaListItem'
 import AccountButton from '../components/AccountButton'
 import { useAppState } from '../state/AppState'
+import { useLanguage } from '../i18n/LanguageContext'
 import './CinemasPage.css'
 
 type View = 'map' | 'list' | 'favorites'
@@ -13,6 +14,7 @@ type View = 'map' | 'list' | 'favorites'
 export default function CinemasPage() {
   const [view, setView] = useState<View>('map')
   const { favoriteCinemas } = useAppState()
+  const { t } = useLanguage()
 
   const visibleCinemas = useMemo(() => {
     if (view === 'favorites') return cinemas.filter((c) => favoriteCinemas.includes(c.id))
@@ -24,7 +26,7 @@ export default function CinemasPage() {
       <header className="page-header">
         <div>
           <div className="eyebrow">Berlin</div>
-          <h1 className="heading page-title">Cinemas</h1>
+          <h1 className="heading page-title">{t('cinemas.title')}</h1>
         </div>
         <div className="page-header__actions">
           <AccountButton />
@@ -33,9 +35,9 @@ export default function CinemasPage() {
       <div className="page-body cinemas-body">
         <PillGroup
           options={[
-            { value: 'map', label: 'Map', icon: <MapIcon /> },
-            { value: 'list', label: 'List', icon: <ListIcon /> },
-            { value: 'favorites', label: 'Favorites', icon: <StarIcon size={13} /> }
+            { value: 'map', label: t('cinemas.map'), icon: <MapIcon /> },
+            { value: 'list', label: t('cinemas.list'), icon: <ListIcon /> },
+            { value: 'favorites', label: t('cinemas.favorites'), icon: <StarIcon size={13} /> }
           ]}
           value={view}
           onChange={setView}
@@ -48,9 +50,7 @@ export default function CinemasPage() {
             {visibleCinemas.map((cinema) => (
               <CinemaListItem key={cinema.id} cinema={cinema} />
             ))}
-            {visibleCinemas.length === 0 && (
-              <p className="eyebrow">No favorite cinemas yet. Tap the star on a cinema to save it here.</p>
-            )}
+            {visibleCinemas.length === 0 && <p className="eyebrow">{t('cinemas.emptyFavorites')}</p>}
           </div>
         )}
       </div>

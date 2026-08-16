@@ -4,12 +4,14 @@ import MovieCard from '../components/MovieCard'
 import { PillGroup } from '../components/PillGroup'
 import AccountButton from '../components/AccountButton'
 import { BellIcon, CalendarIcon, SlidersIcon } from '../components/Icons'
+import { useLanguage } from '../i18n/LanguageContext'
 import './MoviesPage.css'
 
 type Filter = 'week' | 'all'
 
 export default function MoviesPage() {
   const [filter, setFilter] = useState<Filter>('week')
+  const { t } = useLanguage()
 
   const visibleMovies = useMemo(() => {
     if (filter === 'all') return movies
@@ -22,10 +24,10 @@ export default function MoviesPage() {
       <header className="page-header">
         <div>
           <div className="eyebrow">Berlin</div>
-          <h1 className="heading page-title">Movies</h1>
+          <h1 className="heading page-title">{t('movies.title')}</h1>
         </div>
         <div className="page-header__actions">
-          <button className="icon-button" aria-label="Notifications">
+          <button className="icon-button" aria-label={t('movies.notifications')}>
             <BellIcon />
           </button>
           <AccountButton />
@@ -34,8 +36,8 @@ export default function MoviesPage() {
       <div className="page-body">
         <PillGroup
           options={[
-            { value: 'week', label: 'This Week', icon: <CalendarIcon /> },
-            { value: 'all', label: 'All', icon: <SlidersIcon /> }
+            { value: 'week', label: t('movies.thisWeek'), icon: <CalendarIcon /> },
+            { value: 'all', label: t('movies.all'), icon: <SlidersIcon /> }
           ]}
           value={filter}
           onChange={setFilter}
@@ -44,7 +46,7 @@ export default function MoviesPage() {
           {visibleMovies.map((movie) => (
             <MovieCard key={movie.id} movie={movie} />
           ))}
-          {visibleMovies.length === 0 && <p className="eyebrow">No movies playing right now.</p>}
+          {visibleMovies.length === 0 && <p className="eyebrow">{t('movies.empty')}</p>}
         </div>
       </div>
     </div>

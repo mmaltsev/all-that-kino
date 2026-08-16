@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import SegmentedControl from '../components/SegmentedControl'
 import AccountButton from '../components/AccountButton'
 import { useAppState } from '../state/AppState'
+import { useLanguage } from '../i18n/LanguageContext'
 import { BookmarkIcon, ClockIcon, PinIcon, TrashIcon } from '../components/Icons'
 import { getCinema, getMovie } from '../data'
 import { groupLabel } from '../utils/dates'
@@ -14,6 +15,7 @@ export default function WatchlistPage() {
   const [tab, setTab] = useState<Tab>('watchlist')
   const navigate = useNavigate()
   const { watchlistEntries, toggleWatchlist, letterboxd, plan, removePlanItem } = useAppState()
+  const { t, language } = useLanguage()
 
   const planGroups = useMemo(() => {
     const sorted = [...plan].sort((a, b) => a.dayOffset - b.dayOffset || a.time.localeCompare(b.time))
@@ -31,8 +33,8 @@ export default function WatchlistPage() {
       <header className="page-header">
         <SegmentedControl
           options={[
-            { value: 'watchlist', label: 'Watchlist' },
-            { value: 'plan', label: 'Plan' }
+            { value: 'watchlist', label: t('watchlist.watchlist') },
+            { value: 'plan', label: t('watchlist.plan') }
           ]}
           value={tab}
           onChange={setTab}
@@ -46,19 +48,17 @@ export default function WatchlistPage() {
             {!letterboxd && (
               <button className="letterboxd-banner" onClick={() => navigate('/letterboxd')}>
                 <div>
-                  <strong>Connect Letterboxd</strong>
-                  <p>Import your watchlist to see what's playing nearby.</p>
+                  <strong>{t('watchlist.connectLetterboxdTitle')}</strong>
+                  <p>{t('watchlist.connectLetterboxdDesc')}</p>
                 </div>
-                <span className="letterboxd-banner__cta">Import</span>
+                <span className="letterboxd-banner__cta">{t('watchlist.import')}</span>
               </button>
             )}
             <div className="watchlist-list">
               {watchlistEntries.map((entry) => (
                 <WatchlistRow key={`${entry.title}-${entry.year}`} entry={entry} onRemove={entry.movieId ? () => toggleWatchlist(entry.movieId!) : undefined} />
               ))}
-              {watchlistEntries.length === 0 && (
-                <p className="eyebrow">Nothing saved yet. Bookmark a movie or import your Letterboxd watchlist.</p>
-              )}
+              {watchlistEntries.length === 0 && <p className="eyebrow">{t('watchlist.emptyWatchlist')}</p>}
             </div>
           </>
         )}
@@ -67,7 +67,7 @@ export default function WatchlistPage() {
           <div className="plan-list">
             {planGroups.map(([dayOffset, items]) => (
               <div key={dayOffset} className="plan-group">
-                <div className="plan-group__label">{groupLabel(dayOffset).toUpperCase()}</div>
+                <div className="plan-group__label">{groupLabel(dayOffset, language).toUpperCase()}</div>
                 {items.map((item) => {
                   const movie = getMovie(item.movieId)
                   const cinema = getCinema(item.cinemaId)
@@ -82,7 +82,7 @@ export default function WatchlistPage() {
                           <ClockIcon size={12} /> {item.time}
                         </div>
                       </Link>
-                      <button className="plan-item__delete" aria-label="Remove from plan" onClick={() => removePlanItem(item.id)}>
+                      <button className="plan-item__delete" aria-label={t('watchlist.removeFromPlan')} onClick={() => removePlanItem(item.id)}>
                         <TrashIcon size={17} />
                       </button>
                     </div>
@@ -90,9 +90,7 @@ export default function WatchlistPage() {
                 })}
               </div>
             ))}
-            {planGroups.length === 0 && (
-              <p className="eyebrow">No screenings planned yet. Pick a showtime from a movie's page to add it here.</p>
-            )}
+            {planGroups.length === 0 && <p className="eyebrow">{t('watchlist.emptyPlan')}</p>}
           </div>
         )}
       </div>
@@ -102,6 +100,7 @@ export default function WatchlistPage() {
 
 function WatchlistRow({ entry, onRemove }: { entry: ReturnType<typeof useAppState>['watchlistEntries'][number]; onRemove?: () => void }) {
   const movie = entry.movieId ? getMovie(entry.movieId) : undefined
+  const { t } = useLanguage()
   return (
     <div className="watchlist-row">
       <div
@@ -117,14 +116,14 @@ function WatchlistRow({ entry, onRemove }: { entry: ReturnType<typeof useAppStat
         </div>
         {movie ? (
           <Link to={`/movie/${movie.id}`} className="watchlist-row__badge watchlist-row__badge--playing">
-            Playing nearby
+            {t('watchlist.playingNearby')}
           </Link>
         ) : (
-          <span className="watchlist-row__badge">Not playing nearby</span>
+          <span className="watchlist-row__badge">{t('watchlist.notPlayingNearby')}</span>
         )}
       </div>
       {onRemove && (
-        <button className="watchlist-row__remove" aria-label="Remove from watchlist" onClick={onRemove}>
+        <button className="watchlist-row__remove" aria-label={t('movieCard.removeFromWatchlist')} onClick={onRemove}>
           <BookmarkIcon filled size={18} />
         </button>
       )}

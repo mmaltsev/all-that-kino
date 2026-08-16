@@ -1,32 +1,35 @@
 import { useState, type FormEvent } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import { useAuth } from '../state/AuthContext'
 import { useAppState } from '../state/AppState'
+import { useLanguage } from '../i18n/LanguageContext'
+import type { TranslationKey } from '../i18n/en'
 import IconButton from '../components/IconButton'
+import LanguageSwitcher from '../components/LanguageSwitcher'
 import { ArrowLeftIcon } from '../components/Icons'
 import './AccountPage.css'
 
 type Mode = 'sign-in' | 'sign-up'
 
-function authErrorMessage(err: unknown): string {
+function authErrorMessage(err: unknown, t: (key: TranslationKey) => string): string {
   const code = (err as { code?: string } | null)?.code ?? ''
   switch (code) {
     case 'auth/invalid-email':
-      return 'That email address looks invalid.'
+      return t('account.error.invalidEmail')
     case 'auth/user-not-found':
     case 'auth/wrong-password':
     case 'auth/invalid-credential':
-      return 'Incorrect email or password.'
+      return t('account.error.wrongCredentials')
     case 'auth/email-already-in-use':
-      return 'An account with this email already exists — try signing in instead.'
+      return t('account.error.emailInUse')
     case 'auth/weak-password':
-      return 'Password should be at least 6 characters.'
+      return t('account.error.weakPassword')
     case 'auth/popup-closed-by-user':
       return ''
     case 'auth/requires-recent-login':
-      return 'For security, please sign out and sign back in, then try deleting your account again.'
+      return t('account.error.requiresRecentLogin')
     default:
-      return 'Something went wrong. Please try again.'
+      return t('account.error.generic')
   }
 }
 
@@ -34,7 +37,8 @@ export default function AccountPage() {
   const navigate = useNavigate()
   const { user, initializing, isConfigured, signInWithEmail, signUpWithEmail, signInWithGoogle, signOutUser, deleteAccount } = useAuth()
   const { letterboxd } = useAppState()
-  const [mode, setMode] = useState<Mode>('sign-in')
+  const { t } = useLanguage()
+  const [mode, setMode] = useState<Mode>('sign-up')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState<string | null>(null)
@@ -51,7 +55,7 @@ export default function AccountPage() {
       else await signUpWithEmail(email, password)
       navigate('/movies')
     } catch (err) {
-      setError(authErrorMessage(err))
+      setError(authErrorMessage(err, t))
     } finally {
       setBusy(false)
     }
@@ -64,7 +68,7 @@ export default function AccountPage() {
       await signInWithGoogle()
       navigate('/movies')
     } catch (err) {
-      const msg = authErrorMessage(err)
+      const msg = authErrorMessage(err, t)
       if (msg) setError(msg)
     } finally {
       setBusy(false)
@@ -83,7 +87,7 @@ export default function AccountPage() {
     try {
       await deleteAccount()
     } catch (err) {
-      setDeleteError(authErrorMessage(err) || 'Could not delete account. Please try again.')
+      setDeleteError(authErrorMessage(err, t) || t('account.deleteGenericError'))
     } finally {
       setBusy(false)
     }
@@ -92,7 +96,7 @@ export default function AccountPage() {
   return (
     <div className="page account-page">
       <header className="page-header">
-        <IconButton aria-label="Back" onClick={() => navigate(-1)}>
+        <IconButton aria-label={t('common.back')} onClick={() => navigate(-1)}>
           <ArrowLeftIcon />
         </IconButton>
       </header>
@@ -100,44 +104,46 @@ export default function AccountPage() {
       <div className="page-body account-body">
         {!isConfigured ? (
           <>
-            <h1 className="heading account-title">Account</h1>
-            <p className="account-subtitle">
-              Firebase isn't configured yet. Add your project credentials to a <code>.env</code> file to enable sign-in.
-            </p>
+            <h1 className="heading account-title">{t('account.title')}</h1>
+            <p className="account-subtitle">{t('account.notConfiguredMessage')}</p>
           </>
         ) : initializing ? (
-          <p className="eyebrow">Loading…</p>
+          <p className="eyebrow">{t('account.loading')}</p>
         ) : user ? (
           <>
             <div className="account-avatar">{(user.email ?? user.displayName ?? '?').charAt(0).toUpperCase()}</div>
-            <h1 className="heading account-title">{user.displayName ?? 'Signed in'}</h1>
+            <h1 className="heading account-title">{user.displayName ?? t('account.signedInFallback')}</h1>
             <p className="account-subtitle">{user.email}</p>
             <button className="account-submit account-signout" disabled={busy} onClick={handleSignOut}>
-              Sign Out
+              {t('account.signOut')}
             </button>
 
             <div className="account-section">
               <div className="account-section__row">
                 <div>
-                  <div className="account-section__label">Letterboxd</div>
+                  <div className="account-section__label">{t('account.letterboxdLabel')}</div>
                   <div className="account-section__value">
-                    {letterboxd ? `Connected as @${letterboxd.username}` : 'Not connected'}
+                    {letterboxd ? t('account.letterboxdConnectedAs', { username: letterboxd.username }) : t('account.letterboxdNotConnected')}
                   </div>
                 </div>
                 <button className="account-link-button" onClick={() => navigate('/letterboxd')}>
-                  Manage
+                  {t('account.manage')}
                 </button>
               </div>
+            </div>
+
+            <div className="account-section">
+              <LanguageSwitcher />
             </div>
 
             <div className="account-danger-zone">
               {!confirmingDelete ? (
                 <button className="account-danger-link" onClick={() => setConfirmingDelete(true)}>
-                  Delete Account
+                  {t('account.deleteAccount')}
                 </button>
               ) : (
                 <div className="account-confirm-delete">
-                  <p>This permanently deletes your account. This can't be undone.</p>
+                  <p>{t('account.deleteConfirmMessage')}</p>
                   {deleteError && <p className="account-error">{deleteError}</p>}
                   <div className="account-confirm-delete__actions">
                     <button
@@ -148,10 +154,10 @@ export default function AccountPage() {
                         setDeleteError(null)
                       }}
                     >
-                      Cancel
+                      {t('account.cancel')}
                     </button>
                     <button className="account-danger-button" disabled={busy} onClick={handleDeleteAccount}>
-                      {busy ? 'Deleting…' : 'Yes, Delete'}
+                      {busy ? t('account.deleting') : t('account.yesDelete')}
                     </button>
                   </div>
                 </div>
@@ -160,14 +166,14 @@ export default function AccountPage() {
           </>
         ) : (
           <>
-            <h1 className="heading account-title">{mode === 'sign-in' ? 'Welcome Back' : 'Create Your Account'}</h1>
+            <h1 className="heading account-title">{mode === 'sign-in' ? t('account.welcomeBack') : t('account.createYourAccount')}</h1>
 
             <div className="account-mode-toggle">
-              <button type="button" className={mode === 'sign-in' ? 'active' : ''} onClick={() => setMode('sign-in')}>
-                Sign In
-              </button>
               <button type="button" className={mode === 'sign-up' ? 'active' : ''} onClick={() => setMode('sign-up')}>
-                Sign Up
+                {t('account.signUp')}
+              </button>
+              <button type="button" className={mode === 'sign-in' ? 'active' : ''} onClick={() => setMode('sign-in')}>
+                {t('account.signIn')}
               </button>
             </div>
 
@@ -176,7 +182,7 @@ export default function AccountPage() {
                 type="email"
                 required
                 autoComplete="email"
-                placeholder="Email"
+                placeholder={t('account.emailPlaceholder')}
                 className="account-input"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -186,26 +192,38 @@ export default function AccountPage() {
                 required
                 minLength={6}
                 autoComplete={mode === 'sign-in' ? 'current-password' : 'new-password'}
-                placeholder="Password"
+                placeholder={t('account.passwordPlaceholder')}
                 className="account-input"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
               {error && <p className="account-error">{error}</p>}
               <button className="account-submit" type="submit" disabled={busy}>
-                {busy ? 'Please wait…' : mode === 'sign-in' ? 'Sign In' : 'Create Account'}
+                {busy ? t('account.pleaseWait') : mode === 'sign-in' ? t('account.signIn') : t('account.createAccountButton')}
               </button>
             </form>
 
             <div className="account-divider">
-              <span>or</span>
+              <span>{t('account.or')}</span>
             </div>
 
             <button className="account-google" type="button" onClick={handleGoogle} disabled={busy}>
-              <GoogleGlyph /> Continue with Google
+              <GoogleGlyph /> {t('account.continueWithGoogle')}
             </button>
 
-            <p className="account-disclaimer eyebrow">Your account powers sign-in only — watchlist data still lives on this device.</p>
+            {mode === 'sign-up' && (
+              <p className="account-consent eyebrow">
+                {t('account.consentPrefix')}
+                <Link to="/terms">{t('account.consentTermsLink')}</Link>
+                {t('account.consentMiddle')}
+                <Link to="/privacy">{t('account.consentPrivacyLink')}</Link>
+                {t('account.consentSuffix')}
+              </p>
+            )}
+
+            <div className="account-language-row">
+              <LanguageSwitcher />
+            </div>
           </>
         )}
       </div>

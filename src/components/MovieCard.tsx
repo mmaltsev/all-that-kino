@@ -4,10 +4,12 @@ import MovieBackdrop from './MovieBackdrop'
 import IconButton from './IconButton'
 import { BookmarkIcon, ShareIcon } from './Icons'
 import { useAppState } from '../state/AppState'
+import { useLanguage } from '../i18n/LanguageContext'
 import './MovieCard.css'
 
 export default function MovieCard({ movie }: { movie: Movie }) {
   const { isWatchlisted, toggleWatchlist } = useAppState()
+  const { t } = useLanguage()
   const saved = isWatchlisted(movie.id)
 
   const handleShare = async (e: React.MouseEvent) => {
@@ -30,7 +32,7 @@ export default function MovieCard({ movie }: { movie: Movie }) {
         <div className="movie-card__actions">
           <IconButton
             active={saved}
-            aria-label={saved ? 'Remove from watchlist' : 'Add to watchlist'}
+            aria-label={saved ? t('movieCard.removeFromWatchlist') : t('movieCard.addToWatchlist')}
             onClick={(e) => {
               e.preventDefault()
               toggleWatchlist(movie.id)
@@ -38,7 +40,7 @@ export default function MovieCard({ movie }: { movie: Movie }) {
           >
             <BookmarkIcon filled={saved} />
           </IconButton>
-          <IconButton aria-label="Share" onClick={handleShare}>
+          <IconButton aria-label={t('movieCard.share')} onClick={handleShare}>
             <ShareIcon />
           </IconButton>
         </div>

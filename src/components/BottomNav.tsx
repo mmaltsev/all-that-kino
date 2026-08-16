@@ -1,19 +1,21 @@
 import { NavLink } from 'react-router-dom'
+import { useLanguage } from '../i18n/LanguageContext'
 import './BottomNav.css'
 
 const items = [
-  { to: '/movies', label: 'Movies', icon: FilmIcon },
-  { to: '/cinemas', label: 'Cinemas', icon: PinIcon },
-  { to: '/watchlist', label: 'Watchlist', icon: BookmarkIcon }
+  { to: '/movies', labelKey: 'nav.movies' as const, icon: FilmIcon },
+  { to: '/cinemas', labelKey: 'nav.cinemas' as const, icon: PinIcon },
+  { to: '/watchlist', labelKey: 'nav.watchlist' as const, icon: BookmarkIcon }
 ]
 
 export default function BottomNav() {
+  const { t } = useLanguage()
   return (
     <nav className="bottom-nav">
-      {items.map(({ to, label, icon: Icon }) => (
+      {items.map(({ to, labelKey, icon: Icon }) => (
         <NavLink key={to} to={to} className={({ isActive }) => `bottom-nav__item${isActive ? ' bottom-nav__item--active' : ''}`}>
           <Icon />
-          <span>{label}</span>
+          <span>{t(labelKey)}</span>
         </NavLink>
       ))}
     </nav>

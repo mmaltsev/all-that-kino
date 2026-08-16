@@ -5,6 +5,7 @@ import MovieBackdrop from '../components/MovieBackdrop'
 import IconButton from '../components/IconButton'
 import { ArrowLeftIcon, BookmarkIcon, ChevronDownIcon, PlayIcon, ShareIcon, StarIcon } from '../components/Icons'
 import { useAppState } from '../state/AppState'
+import { useLanguage } from '../i18n/LanguageContext'
 import { dayLabel, formatRuntime, monthLabel, shortDayNum } from '../utils/dates'
 import './MovieDetailPage.css'
 
@@ -14,6 +15,7 @@ export default function MovieDetailPage() {
   const movie = id ? getMovie(id) : undefined
   const { isWatchlisted, toggleWatchlist, isFavoriteCinema, toggleFavoriteCinema, addPlanItem, removePlanItem, isPlanned, plan } =
     useAppState()
+  const { t, language } = useLanguage()
 
   const [showInfo, setShowInfo] = useState(false)
   const [favoritesFirst, setFavoritesFirst] = useState(true)
@@ -65,8 +67,8 @@ export default function MovieDetailPage() {
     return (
       <div className="page">
         <div className="page-body">
-          <p>Movie not found.</p>
-          <button onClick={() => navigate('/movies')}>Back to Movies</button>
+          <p>{t('movieDetail.notFound')}</p>
+          <button onClick={() => navigate('/movies')}>{t('movieDetail.backToMovies')}</button>
         </div>
       </div>
     )
@@ -77,7 +79,7 @@ export default function MovieDetailPage() {
   return (
     <div className="page movie-detail">
       <MovieBackdrop color={movie.backdropColor} title={movie.title} className="movie-detail__hero">
-        <IconButton className="movie-detail__back" aria-label="Back" onClick={() => navigate(-1)}>
+        <IconButton className="movie-detail__back" aria-label={t('common.back')} onClick={() => navigate(-1)}>
           <ArrowLeftIcon />
         </IconButton>
         <div className="movie-detail__hero-info">
@@ -85,7 +87,7 @@ export default function MovieDetailPage() {
           <h1 className="heading movie-detail__title">{movie.title}</h1>
           <div className="eyebrow">{formatRuntime(movie.runtimeMinutes)}</div>
           <button className="movie-detail__more" onClick={() => setShowInfo((v) => !v)}>
-            More info <ChevronDownIcon size={14} />
+            {t('movieDetail.moreInfo')} <ChevronDownIcon size={14} />
           </button>
         </div>
       </MovieBackdrop>
@@ -101,13 +103,13 @@ export default function MovieDetailPage() {
 
       <div className="movie-detail__cta-row">
         <button className={`cta-button${saved ? ' cta-button--active' : ''}`} onClick={() => toggleWatchlist(movie.id)}>
-          <BookmarkIcon filled={saved} size={16} /> Watchlist
+          <BookmarkIcon filled={saved} size={16} /> {t('movieDetail.watchlist')}
         </button>
         <button className="cta-button" onClick={handleShare}>
-          <ShareIcon size={16} /> Share
+          <ShareIcon size={16} /> {t('movieDetail.share')}
         </button>
-        <button className="cta-button" disabled title="Dummy data — no trailer linked">
-          <PlayIcon size={16} /> Trailer
+        <button className="cta-button" disabled title={t('movieDetail.trailerTooltip')}>
+          <PlayIcon size={16} /> {t('movieDetail.trailer')}
         </button>
       </div>
 
@@ -118,9 +120,9 @@ export default function MovieDetailPage() {
             className={`date-pill${day === selectedDay ? ' date-pill--active' : ''}`}
             onClick={() => setSelectedDay(day)}
           >
-            <span className="date-pill__label">{dayLabel(day)}</span>
+            <span className="date-pill__label">{dayLabel(day, language)}</span>
             <span className="date-pill__num">
-              {monthLabel(day)} {shortDayNum(day)}
+              {monthLabel(day, language)} {shortDayNum(day)}
             </span>
           </button>
         ))}
@@ -128,7 +130,7 @@ export default function MovieDetailPage() {
 
       <div className="movie-detail__sort-row">
         <button className="movie-detail__sort" onClick={() => setFavoritesFirst((v) => !v)}>
-          {favoritesFirst ? 'Favorites first' : 'A–Z'} <ChevronDownIcon size={14} />
+          {favoritesFirst ? t('movieDetail.favoritesFirst') : t('movieDetail.aToZ')} <ChevronDownIcon size={14} />
         </button>
       </div>
 
@@ -139,7 +141,7 @@ export default function MovieDetailPage() {
               <span className="cinema-showtimes__name">{cinema.name}</span>
               <button
                 className={`cinema-item__star${isFavoriteCinema(cinema.id) ? ' cinema-item__star--active' : ''}`}
-                aria-label="Favorite cinema"
+                aria-label={t('cinemas.favoriteCinema')}
                 onClick={() => toggleFavoriteCinema(cinema.id)}
               >
                 <StarIcon filled={isFavoriteCinema(cinema.id)} />
@@ -170,10 +172,10 @@ export default function MovieDetailPage() {
             </div>
           </div>
         ))}
-        {groupedByCinema.length === 0 && <p className="eyebrow">No showtimes for this day.</p>}
+        {groupedByCinema.length === 0 && <p className="eyebrow">{t('movieDetail.noShowtimes')}</p>}
       </div>
 
-      <p className="movie-detail__hint eyebrow">Tap a showtime to add it to your Plan.</p>
+      <p className="movie-detail__hint eyebrow">{t('movieDetail.hint')}</p>
     </div>
   )
 }

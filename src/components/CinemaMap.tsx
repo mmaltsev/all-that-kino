@@ -2,12 +2,14 @@ import { useState } from 'react'
 import type { Cinema } from '../types'
 import { StarIcon, PinIcon } from './Icons'
 import { useAppState } from '../state/AppState'
+import { useLanguage } from '../i18n/LanguageContext'
 import { showtimesForCinema, getMovie } from '../data'
 import './CinemaMap.css'
 
 export default function CinemaMap({ cinemas }: { cinemas: Cinema[] }) {
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const { isFavoriteCinema, toggleFavoriteCinema } = useAppState()
+  const { t } = useLanguage()
   const selected = cinemas.find((c) => c.id === selectedId) ?? null
 
   const todayScreenings = selected
@@ -63,12 +65,12 @@ export default function CinemaMap({ cinemas }: { cinemas: Cinema[] }) {
                 ))}
               </div>
             ) : (
-              <div className="cinema-map__screenings eyebrow">Nothing scheduled today.</div>
+              <div className="cinema-map__screenings eyebrow">{t('cinemas.nothingScheduledToday')}</div>
             )}
           </div>
           <button
             className={`cinema-item__star${isFavoriteCinema(selected.id) ? ' cinema-item__star--active' : ''}`}
-            aria-label="Favorite cinema"
+            aria-label={t('cinemas.favoriteCinema')}
             onClick={() => toggleFavoriteCinema(selected.id)}
           >
             <StarIcon filled={isFavoriteCinema(selected.id)} />
