@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import SegmentedControl from '../components/SegmentedControl'
 import { useAppState } from '../state/AppState'
+import { useAuth } from '../state/AuthContext'
 import { BookmarkIcon, ClockIcon, PersonIcon, PinIcon, TrashIcon } from '../components/Icons'
 import { getCinema, getMovie } from '../data'
 import { groupLabel } from '../utils/dates'
@@ -13,6 +14,7 @@ export default function WatchlistPage() {
   const [tab, setTab] = useState<Tab>('watchlist')
   const navigate = useNavigate()
   const { watchlistEntries, toggleWatchlist, letterboxd, plan, removePlanItem } = useAppState()
+  const { user } = useAuth()
 
   const planGroups = useMemo(() => {
     const sorted = [...plan].sort((a, b) => a.dayOffset - b.dayOffset || a.time.localeCompare(b.time))
@@ -36,8 +38,8 @@ export default function WatchlistPage() {
           value={tab}
           onChange={setTab}
         />
-        <button className="icon-button watchlist-avatar" aria-label="Letterboxd account" onClick={() => navigate('/letterboxd')}>
-          {letterboxd ? letterboxd.username.charAt(0).toUpperCase() : <PersonIcon size={18} />}
+        <button className="icon-button watchlist-avatar" aria-label="Account" onClick={() => navigate('/account')}>
+          {user ? (user.email ?? user.displayName ?? '?').charAt(0).toUpperCase() : <PersonIcon size={18} />}
         </button>
       </header>
 
